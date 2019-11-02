@@ -33,7 +33,7 @@ Located in Build menu under Resources tab. Does not need any input for cloning p
 
 ##  Known issues/Future enhancements
 - Demolishing won't recoup construction materials
-- to figure out what happened to the pause button, earlier tests with an input requirement had one <img src="https://ellacharmed.files.wordpress.com/2019/11/testing-with-one-resource.png" width="25%" alt="resource factory in action"/>
+- to figure out what happened to the pause button, earlier tests with an input requirement had one <img src="https://ellacharmed.files.wordpress.com/2019/11/testing-with-one-resource.png" width="25%" alt="testing with one resource"/>
 
 
 
