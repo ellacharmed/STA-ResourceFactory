@@ -22,7 +22,7 @@ Creates a resource, using the Fish Factory mesh from the modtool sample. Clones 
 Located in Build menu under Resources tab. Does not need any input for cloning production process.
 
 ##  Requirements
-* Build a General storage first
+* 100 Science Points: need to build a General Storage first. Otherwise, produced items have no where to go and thus cannot be used.
 * Construction Cost: Metal 10 units
 * Repair cost: Metal 1 unit
 
