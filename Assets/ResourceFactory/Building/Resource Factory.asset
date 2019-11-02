@@ -23,8 +23,12 @@ MonoBehaviour:
     value: 10
   repairResource:
     type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-    value: 1
-  destructionResources: []
+    value: 5
+  destructionResources:
+  - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+    value: 25
+  - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
+    value: 5
   category: 4
   menuType: 0
   models:
