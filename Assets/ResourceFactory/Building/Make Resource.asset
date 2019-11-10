@@ -22,15 +22,15 @@ MonoBehaviour:
   recipes:
   - key: GRP_MEDICINE
     input:
-    - type: {fileID: 11400000, guid: 80f54a687b5a38a41b18f19de59ee24f, type: 2}
+    - type: {fileID: 11400000, guid: 3f7cca8fa27e3aa45917223fe8c3c9a6, type: 2}
       value: 1
     output:
     - type: {fileID: 11400000, guid: 1be3ca98014cde6449a533e1701f4009, type: 2}
-      value: 1
+      value: 2
     - type: {fileID: 11400000, guid: 617692f1335d23644b2d7389f543ccf7, type: 2}
-      value: 1
+      value: 2
     - type: {fileID: 11400000, guid: 3f7cca8fa27e3aa45917223fe8c3c9a6, type: 2}
-      value: 1
+      value: 2
   - key: GRP_RAW
     input:
     - type: {fileID: 11400000, guid: f9dd76d1691ba5541bfa960bd83ad3e9, type: 2}
