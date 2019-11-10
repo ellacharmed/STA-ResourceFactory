@@ -1,3 +1,10 @@
 id,English,France,German,Spanish,Portuguese,Russian,Polish,Chinese
 #RESOURCE_FACTORY,Resource Factory,Usine de ressources,Resource Factory,Fábrica de recursos,Fábrica de Recursos,Ресурсная фабрика,Fabryka zasobówresource Factory,资源工厂
 #DESC_RESOURCE_FACTORY,Clones 10 units of the following resources every 5 minutes,Clones 10 unités des ressources suivantes toutes les 5 minutes,Klont 10 Einheiten der folgenden Ressourcen alle 5 Minuten,Clona 10 unidades de los siguientes recursos cada 5 minutos,Clones 10 unidades dos seguintes recursos a cada 5 minutos,Klony 10 jednostek z następujących zasobów co 5 minut,Клоны 10 единиц следующих ресурсов каждые 5 минут,每 5 分钟克隆 10 个以下资源单位
+#RECIPE_GRP_MEDICINE_DESC,Medicine group. Magically synthesizes 1 each of Antibiotic Iodine Medicine from 1 Medicine,Magically synthesizes 1 each of Antibiotic Iodine Medicine from 1 Medicine,,,,,,,,
+#RECIPE_GRP_RAW_DESC,Raw resources group. Use 1 Fish. Clones 5 units each of Concrete Debris Fiber Firewood Metal Trash,,,,,,,,
+#RECIPE_GRP_REFINED_DESC,Refined resources group. Use 1 Corn.Clones 5 units each of Electronics Parts Plank Plastic Wood,,,,,,,,
+#RECIPE_GRP_ENDPRODUCT_DESC,End-product group. Uses 1 unit each of Fiber and Metal to clone 5 units each of Clothes and Tools,,,,,,,,
+
+
+
