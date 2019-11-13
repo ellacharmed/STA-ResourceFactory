@@ -15,7 +15,7 @@ MonoBehaviour:
   professionType: 2
   input:
   - type: {fileID: 11400000, guid: 80f54a687b5a38a41b18f19de59ee24f, type: 2}
-    value: 1
+    value: 0
   output: []
   productionTime: 60
   disasterMultiplier: 0
@@ -36,23 +36,19 @@ MonoBehaviour:
     - type: {fileID: 11400000, guid: f9dd76d1691ba5541bfa960bd83ad3e9, type: 2}
       value: 1
     output:
-    - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
-      value: 5
     - type: {fileID: 11400000, guid: 4c8f12450da84e44fa974faa4cff8e23, type: 2}
-      value: 5
-    - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
-      value: 5
+      value: 10
     - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-      value: 5
+      value: 10
+    - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
+      value: 10
+    - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
+      value: 10
   - key: GRP_REFINED
     input:
     - type: {fileID: 11400000, guid: c0f856579cb802d4eb0387753f42c04c, type: 2}
       value: 1
     output:
-    - type: {fileID: 11400000, guid: 39df25ab567e16d4da7cda67ff7218b1, type: 2}
-      value: 5
-    - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
-      value: 5
     - type: {fileID: 11400000, guid: 2e8e235d47fbe3341b76055658951793, type: 2}
       value: 5
     - type: {fileID: 11400000, guid: d825481e90142364693a2b92f981ecfb, type: 2}
@@ -60,6 +56,8 @@ MonoBehaviour:
     - type: {fileID: 11400000, guid: 23141150fc286cb4ab42040bd9c79774, type: 2}
       value: 5
     - type: {fileID: 11400000, guid: 6717dc1fe157b434dbec71efbaa6b25d, type: 2}
+      value: 5
+    - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
       value: 5
     - type: {fileID: 11400000, guid: c0509161f6468164eac35fe6780d46fd, type: 2}
       value: 5

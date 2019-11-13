@@ -1,10 +1,10 @@
 id,English,France,German,Spanish,Portuguese,Russian,Polish,Chinese
 #RESOURCE_FACTORY,Resource Factory,Usine de ressources,Resource Factory,Fábrica de recursos,Fábrica de Recursos,Ресурсная фабрика,Fabryka zasobówresource Factory,资源工厂
-#DESC_RESOURCE_FACTORY,Factory produce resources in four separate groups using the Recipe feature,,,,,,,
+#DESC_RESOURCE_FACTORY,Factory produce resources in four separate groups using the Recipe feature and comes with built-in storage,,,,,,,
 #RECIPE_GRP_MEDICINE_DESC,Medicine group. Magically synthesizes 2 each of Antibiotic Iodine Medicine from 1 Medicine,,,,,,,
-#RECIPE_GRP_RAW_DESC,Raw resources group. Use 1 Fish. Clones 5 units each of Concrete Debris Fiber Firewood Metal Trash,,,,,,,
-#RECIPE_GRP_REFINED_DESC,Refined resources group. Use 1 Corn.Clones 5 units each of Electronics Parts Plank Plastic Wood,,,,,,,
-#RECIPE_GRP_ENDPRODUCT_DESC,End-product group. Uses 1 unit each of Fiber and Metal to clone 5 units each of Clothes and Tools,,,,,,,
+#RECIPE_GRP_RAW_DESC,Raw resources group. Use 1 Fish. Clones 10 units each of Concrete Metal Plastic Plank,,,,,,,
+#RECIPE_GRP_REFINED_DESC,Refined resources group. Use 1 Corn. Clones 5 units each of Components Electronics Funbox Firewood Parts Wood,,,,,,,
+#RECIPE_GRP_ENDPRODUCT_DESC,End-product group. Use 1 unit each of Fiber and Metal to clone 5 units each of Clothes and Tools,,,,,,,
 
 
 
