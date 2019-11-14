@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -888994414, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
   m_Name: Resource Factory
   m_EditorClassIdentifier: 
-  ID: 121
+  ID: -1
   name: '#RESOURCE_FACTORY'
   priority: 99
   bigIcon: {fileID: 21300000, guid: 8e7395418881bd843b552c4e19fb9c1e, type: 3}
@@ -53,7 +53,6 @@ MonoBehaviour:
   properties:
   - {fileID: 11400000, guid: 2d933c108e7c3b94ab8603f2f6c364c3, type: 2}
   - {fileID: 11400000, guid: f8127d41e33195543bb24dfd2dd4cf18, type: 2}
-  - {fileID: 11400000, guid: 5830e394d1569de4f812dbbfdf8e6a5d, type: 2}
   entryPath:
     nodes:
     - worldPosition: {x: 2, y: 0, z: -1}
