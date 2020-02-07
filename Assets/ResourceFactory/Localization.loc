@@ -1,0 +1,12 @@
+id,English,France,German,Spanish,Portuguese,Russian,Polish,Chinese
+#RESOURCE_FACTORY,Resource Factory,Usine de ressources,Resource Factory,Fábrica de recursos,Fábrica de Recursos,Ресурсная фабрика,Fabryka zasobówresource Factory,资源工厂
+#DESC_RESOURCE_FACTORY,Factory produce resources in four separate groups using the Recipe feature and comes with built-in storage,,,,,,,
+#RECIPE_GRP_MEDICINE_DESC,"Medicine group. Magically synthesizes 2 each of Antibiotic, Iodine and Medicine from 1 Medicine.",,,,,,,
+#RECIPE_GRP_RAW_DESC,"Raw resources group. Use 1 each of Concrete, Metal, Plastic and Plank to clones 15 units each of Concrete, Fiber, Metal,Plastic, Plank, and Scrap.",,,,,,,
+#RECIPE_GRP_NOW_REFINE_DESC,"Refined-Now group. Use 1 each of Plastic, Plank, and Scrap to clone 10 units each of Components, Firewood, Parts and Wood.",,,,,,,
+#RECIPE_GRP_LATER_REFINE_DESC,"Refine-Later group. Use 1 Parts and 3 Plastic to clone 5 units each of Electronics and Funbox.",,,,,,,
+#RECIPE_GRP_ENDPRODUCT_DESC,"End-product group. Use 1 unit each of Fiber, Metal and Scrap to clone 5 units each of Clothes and Tools.",,,,,,,
+#RECIPE_GRP_FOOD_DESC,"Emergency food group. 50 units each of emergency food consisting Soybean Wheat MixedMeal v0.3.5. Built with patch 1.4.0.5654.",,,,,,,
+
+
+

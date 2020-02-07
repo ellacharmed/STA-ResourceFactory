@@ -42,3 +42,4 @@ _Local.meta
 
 AssetBundles/
 Mods/
+!Mods/*.mod
