@@ -10,39 +10,43 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1677054141, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
-  m_Name: Fish Factory
+  m_Name: Resource Factory
   m_EditorClassIdentifier: 
-  id: 1586530000
+  id: 1211970904
   basicBuilding: {fileID: 0}
   unlockCondition: 0
-  name: '#FISH_FACTORY'
-  category: 3
+  name: '#RESOURCE_FACTORY'
+  buildingTechDescription: 
+  category: 4
   menuType: 0
   includedInStatistics: 1
+  showDetailsInTechInfo: 1
   priority: 99
-  buildResource: 0
+  buildResource: 1
   resources:
+  - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
+    value: 1
   - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-    value: 10
+    value: 1
   repairResource:
     type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-    value: 10
+    value: 2
   destructionResources:
   - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-    value: 5
+    value: 2
   workSlotCount: 2
   canBeRepaired: 1
   roadID: 
   level: 1
-  icon: {fileID: 21300000, guid: b13ac5df4496207428e46d323f7b0754, type: 3}
-  bigIcon: {fileID: 21300000, guid: b13ac5df4496207428e46d323f7b0754, type: 3}
+  icon: {fileID: 21300000, guid: 8e7395418881bd843b552c4e19fb9c1e, type: 3}
+  bigIcon: {fileID: 21300000, guid: 8e7395418881bd843b552c4e19fb9c1e, type: 3}
   models:
   - visual: {fileID: 1676370284329800940, guid: 4fe2f352649f54f4ea8d40de16fda8a4,
       type: 3}
     brushVisual: {fileID: 1676370284329800940, guid: 4fe2f352649f54f4ea8d40de16fda8a4,
       type: 3}
     constructions:
-    - {fileID: 1676370284329800940, guid: 4fe2f352649f54f4ea8d40de16fda8a4, type: 3}
+    - {fileID: 100000, guid: 186f25be6eb6fed41933e11367332001, type: 3}
     destructionModel: {fileID: 0}
   visualizationData:
     showDeposits: {fileID: 0}
@@ -174,6 +178,7 @@ MonoBehaviour:
     loopWorkingPath: 1
   properties:
   - {fileID: 11400000, guid: 2d933c108e7c3b94ab8603f2f6c364c3, type: 2}
+  - {fileID: 11400000, guid: f8127d41e33195543bb24dfd2dd4cf18, type: 2}
   hideFunctionButtons: 0
   hideHealthElement: 0
   hideDescriptionElement: 1
@@ -193,19 +198,22 @@ MonoBehaviour:
   showRadius: 0
   showRadiusTileGrid: 0
   cellEfficiencyMode: 0
+  useWorkAreaEfficiency: 0
   canEditWorkarea: 0
+  highlightDeposits: 0
   canResizeWorkarea: 0
   canEditStorage: 0
   targetEfficiency: 0.9
   isUnique: 0
   isRemovable: 1
   indestructible: 0
-  damageMultiplier: 1
+  damageMultiplier: 0.5
   restrictedPlacement: 0
+  onlyDeepDeposits: 0
   restrictedPlacementPosition: {x: 0, y: 0}
   decalOverride: {fileID: 0}
   decalEnabled: 1
-  workAreaRadius: 7
+  workAreaRadius: 14
   buildingDestoyedSoundEvent:
     eventName: 
     eventParams: []
