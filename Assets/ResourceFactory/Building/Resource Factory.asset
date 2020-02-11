@@ -195,14 +195,14 @@ MonoBehaviour:
   placementType: 0
   noDrySoil: 0
   onlyDrySoil: 0
-  showRadius: 0
+  showRadius: 1
   showRadiusTileGrid: 0
   cellEfficiencyMode: 0
   useWorkAreaEfficiency: 0
-  canEditWorkarea: 0
-  highlightDeposits: 0
-  canResizeWorkarea: 0
-  canEditStorage: 0
+  canEditWorkarea: 1
+  highlightDeposits: 1
+  canResizeWorkarea: 1
+  canEditStorage: 1
   targetEfficiency: 0.9
   isUnique: 0
   isRemovable: 1
