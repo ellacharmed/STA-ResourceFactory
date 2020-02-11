@@ -18,7 +18,7 @@ MonoBehaviour:
     value: 1
   output: []
   productionTime: 30
-  disasterMultiplier: 1
+  disasterMultiplier: 0
   recipes:
   - key: GRP_MEDICINE
     input:
@@ -32,7 +32,15 @@ MonoBehaviour:
     - type: {fileID: 11400000, guid: 3f7cca8fa27e3aa45917223fe8c3c9a6, type: 2}
       value: 3
   - key: GRP_RAW
-    input: []
+    input:
+    - type: {fileID: 11400000, guid: 4c8f12450da84e44fa974faa4cff8e23, type: 2}
+      value: 1
+    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+      value: 1
+    - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
+      value: 1
+    - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
+      value: 1
     output:
     - type: {fileID: 11400000, guid: 4c8f12450da84e44fa974faa4cff8e23, type: 2}
       value: 5
@@ -93,7 +101,7 @@ MonoBehaviour:
       value: 5
   - key: GRP_FOOD
     input:
-    - type: {fileID: 11400000, guid: 80f54a687b5a38a41b18f19de59ee24f, type: 2}
+    - type: {fileID: 11400000, guid: c0f856579cb802d4eb0387753f42c04c, type: 2}
       value: 1
     output:
     - type: {fileID: 11400000, guid: 888ef8df0281fe44a9cd89bb0c8da549, type: 2}
@@ -104,4 +112,22 @@ MonoBehaviour:
       value: 75
     - type: {fileID: 11400000, guid: 587f322ffea3267488d01f6726136e83, type: 2}
       value: 75
+  - key: GRP_GLOBAL
+    input: []
+    output:
+    - type: {fileID: 11400000, guid: 7084e400dd8012c4fbb89727c3d9affd, type: 2}
+      value: 100
+    - type: {fileID: 11400000, guid: 98f6c88a3097ca94eabd43b4e208fa11, type: 2}
+      value: 100
+    - type: {fileID: 11400000, guid: 8ca7ce25d52853b41a0177232c966303, type: 2}
+      value: 100
+  - key: GRP_VEHICLE
+    input:
+    - type: {fileID: 11400000, guid: 1f8f9eb74a03d004fa17893443ea9846, type: 2}
+      value: 30
+    output:
+    - type: {fileID: 11400000, guid: 904881d176e018c4ca8834076df8f8a6, type: 2}
+      value: 10
+    - type: {fileID: 11400000, guid: d21211e22f2078f4a8479827fc4bf1f5, type: 2}
+      value: 10
   requireDeposits: 0
