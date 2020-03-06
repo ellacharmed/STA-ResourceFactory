@@ -180,8 +180,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2d933c108e7c3b94ab8603f2f6c364c3, type: 2}
   - {fileID: 11400000, guid: f8127d41e33195543bb24dfd2dd4cf18, type: 2}
   hideFunctionButtons: 0
-  hideHealthElement: 0
-  hideDescriptionElement: 1
+  hideHealthElement: 1
+  hideDescriptionElement: 0
   hideEfficiencyElement: 1
   placement:
     tiles:
@@ -195,25 +195,25 @@ MonoBehaviour:
   placementType: 0
   noDrySoil: 0
   onlyDrySoil: 0
-  showRadius: 1
+  showRadius: 0
   showRadiusTileGrid: 0
   cellEfficiencyMode: 0
-  useWorkAreaEfficiency: 0
-  canEditWorkarea: 1
-  highlightDeposits: 1
-  canResizeWorkarea: 1
+  useWorkAreaEfficiency: 1
+  canEditWorkarea: 0
+  highlightDeposits: 0
+  canResizeWorkarea: 0
   canEditStorage: 1
-  targetEfficiency: 0.9
+  targetEfficiency: 1.5
   isUnique: 0
   isRemovable: 1
   indestructible: 0
-  damageMultiplier: 0.5
+  damageMultiplier: 1
   restrictedPlacement: 0
   onlyDeepDeposits: 0
   restrictedPlacementPosition: {x: 0, y: 0}
   decalOverride: {fileID: 0}
   decalEnabled: 1
-  workAreaRadius: 14
+  workAreaRadius: 7
   buildingDestoyedSoundEvent:
     eventName: 
     eventParams: []
