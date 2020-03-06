@@ -15,9 +15,15 @@ MonoBehaviour:
   id: 1211970904
   basicBuilding: {fileID: 0}
   unlockCondition: 0
+<<<<<<< HEAD:Assets/ResourceFactory/Building/Resource Factory.asset
   name: '#RESOURCE_FACTORY'
   buildingTechDescription: 
   category: 4
+=======
+  name: '#FISH_FACTORY'
+  buildingTechDescription: 
+  category: 3
+>>>>>>> upstream/master:Assets/FishFactory/Building/Fish Factory.asset
   menuType: 0
   includedInStatistics: 1
   showDetailsInTechInfo: 1
@@ -27,10 +33,21 @@ MonoBehaviour:
   - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
     value: 1
   - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+<<<<<<< HEAD:Assets/ResourceFactory/Building/Resource Factory.asset
     value: 1
   repairResource:
     type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
     value: 2
+=======
+    value: 4
+  - type: {fileID: 11400000, guid: 4c8f12450da84e44fa974faa4cff8e23, type: 2}
+    value: 2
+  - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
+    value: 1
+  repairResource:
+    type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+    value: 5
+>>>>>>> upstream/master:Assets/FishFactory/Building/Fish Factory.asset
   destructionResources:
   - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
     value: 2
@@ -46,13 +63,17 @@ MonoBehaviour:
     brushVisual: {fileID: 1676370284329800940, guid: 4fe2f352649f54f4ea8d40de16fda8a4,
       type: 3}
     constructions:
+<<<<<<< HEAD:Assets/ResourceFactory/Building/Resource Factory.asset
     - {fileID: 100000, guid: 186f25be6eb6fed41933e11367332001, type: 3}
+=======
+    - {fileID: 1676370284329800940, guid: eb1921f87b58dd041b8bcfaa7e286821, type: 3}
+>>>>>>> upstream/master:Assets/FishFactory/Building/Fish Factory.asset
     destructionModel: {fileID: 0}
   visualizationData:
     showDeposits: {fileID: 0}
     buildingPath:
     - nodes:
-      - worldPosition: {x: 2, y: 0, z: -1}
+      - worldPosition: {x: 2, y: 0, z: 2}
         doorUse:
           useDoor: 0
           doorId: 0
@@ -62,37 +83,7 @@ MonoBehaviour:
         shouldRotate: 0
         lookDirection: {x: 0, y: 0, z: 0}
         animationID: 0
-        toolID: 0
-        soundEvent:
-          eventName: 
-          eventParams: []
-        soundEventDelay: 0
-      - worldPosition: {x: 0, y: 0, z: 1}
-        doorUse:
-          useDoor: 0
-          doorId: 0
-        isInside: 0
-        isActionNode: 0
-        waitTime: 0
-        shouldRotate: 0
-        lookDirection: {x: 0, y: 0, z: 0}
-        animationID: 0
-        toolID: 0
-        soundEvent:
-          eventName: 
-          eventParams: []
-        soundEventDelay: 0
-      - worldPosition: {x: 2, y: 0, z: -0.5}
-        doorUse:
-          useDoor: 0
-          doorId: 0
-        isInside: 0
-        isActionNode: 0
-        waitTime: 0
-        shouldRotate: 0
-        lookDirection: {x: 0, y: 0, z: 0}
-        animationID: 0
-        toolID: 0
+        toolID: 6
         soundEvent:
           eventName: 
           eventParams: []
@@ -107,12 +98,87 @@ MonoBehaviour:
         shouldRotate: 0
         lookDirection: {x: 0, y: 0, z: 0}
         animationID: 0
-        toolID: 0
+        toolID: 6
         soundEvent:
           eventName: 
           eventParams: []
         soundEventDelay: 0
-      - worldPosition: {x: 2, y: 0, z: 1}
+      - worldPosition: {x: 3, y: 0, z: 0}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 4, y: 0, z: 0.5}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 0
+        isActionNode: 1
+        waitTime: 10
+        shouldRotate: 1
+        lookDirection: {x: 0, y: 135, z: 0}
+        animationID: 4
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 3, y: 0, z: 0}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 2, y: 0, z: 0}
+        doorUse:
+          useDoor: 1
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 2, y: 0, z: 2}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 2, y: 0, z: 2}
         doorUse:
           useDoor: 0
           doorId: 0
@@ -122,7 +188,7 @@ MonoBehaviour:
         shouldRotate: 0
         lookDirection: {x: 0, y: 0, z: 0}
         animationID: 0
-        toolID: 0
+        toolID: 6
         soundEvent:
           eventName: 
           eventParams: []
@@ -145,7 +211,7 @@ MonoBehaviour:
         eventName: 
         eventParams: []
       soundEventDelay: 0
-    - worldPosition: {x: 2, y: 0, z: 0}
+    - worldPosition: {x: 2, y: 0, z: -0.45}
       doorUse:
         useDoor: 0
         doorId: 0
@@ -160,12 +226,12 @@ MonoBehaviour:
         eventName: 
         eventParams: []
       soundEventDelay: 0
-    - worldPosition: {x: 2, y: 0, z: 1}
+    - worldPosition: {x: 2, y: 0, z: 2}
       doorUse:
-        useDoor: 0
+        useDoor: 1
         doorId: 0
       isInside: 1
-      isActionNode: 0
+      isActionNode: 1
       waitTime: 5
       shouldRotate: 0
       lookDirection: {x: 0, y: 0, z: 0}
@@ -178,7 +244,11 @@ MonoBehaviour:
     loopWorkingPath: 1
   properties:
   - {fileID: 11400000, guid: 2d933c108e7c3b94ab8603f2f6c364c3, type: 2}
+<<<<<<< HEAD:Assets/ResourceFactory/Building/Resource Factory.asset
   - {fileID: 11400000, guid: f8127d41e33195543bb24dfd2dd4cf18, type: 2}
+=======
+  - {fileID: 11400000, guid: b5fdfbdd9eab007449f61adab40c76ab, type: 2}
+>>>>>>> upstream/master:Assets/FishFactory/Building/Fish Factory.asset
   hideFunctionButtons: 0
   hideHealthElement: 0
   hideDescriptionElement: 1
@@ -198,11 +268,19 @@ MonoBehaviour:
   showRadius: 1
   showRadiusTileGrid: 0
   cellEfficiencyMode: 0
+<<<<<<< HEAD:Assets/ResourceFactory/Building/Resource Factory.asset
   useWorkAreaEfficiency: 0
   canEditWorkarea: 1
   highlightDeposits: 1
   canResizeWorkarea: 1
   canEditStorage: 1
+=======
+  useWorkAreaEfficiency: 1
+  canEditWorkarea: 0
+  highlightDeposits: 0
+  canResizeWorkarea: 0
+  canEditStorage: 0
+>>>>>>> upstream/master:Assets/FishFactory/Building/Fish Factory.asset
   targetEfficiency: 0.9
   isUnique: 0
   isRemovable: 1
