@@ -29,9 +29,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3f7cca8fa27e3aa45917223fe8c3c9a6, type: 2}
   - {fileID: 11400000, guid: d21211e22f2078f4a8479827fc4bf1f5, type: 2}
   - {fileID: 11400000, guid: 904881d176e018c4ca8834076df8f8a6, type: 2}
-  capacity: 1500000
-  canHarvestDeposits: 1
+  capacity: 500000
+  canHarvestDeposits: 0
   isVisual: 0
   visualStorageSize: 18
-  visualStorageOffset: {x: 0, y: 0, z: 0}
+  visualStorageOffset: {x: 0, y: -1, z: 0}
   isActive: 1
