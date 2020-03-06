@@ -26,21 +26,11 @@ MonoBehaviour:
       value: 1
     output:
     - type: {fileID: 11400000, guid: 1be3ca98014cde6449a533e1701f4009, type: 2}
-      value: 2
+      value: 5
     - type: {fileID: 11400000, guid: 617692f1335d23644b2d7389f543ccf7, type: 2}
-      value: 2
-    - type: {fileID: 11400000, guid: 3f7cca8fa27e3aa45917223fe8c3c9a6, type: 2}
-      value: 3
+      value: 5
   - key: GRP_RAW
-    input:
-    - type: {fileID: 11400000, guid: 4c8f12450da84e44fa974faa4cff8e23, type: 2}
-      value: 1
-    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-      value: 1
-    - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
-      value: 1
-    - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
-      value: 1
+    input: []
     output:
     - type: {fileID: 11400000, guid: 4c8f12450da84e44fa974faa4cff8e23, type: 2}
       value: 5
@@ -53,7 +43,7 @@ MonoBehaviour:
     - type: {fileID: 11400000, guid: e13851ae2ec683a45802b5f3fc64d81c, type: 2}
       value: 5
     - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-      value: 10
+      value: 5
   - key: GRP_NOW_REFINE
     input:
     - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
@@ -101,8 +91,14 @@ MonoBehaviour:
       value: 5
   - key: GRP_FOOD
     input:
-    - type: {fileID: 11400000, guid: c0f856579cb802d4eb0387753f42c04c, type: 2}
-      value: 1
+    - type: {fileID: 11400000, guid: fb6cafae6711db743aacfe5ac86125a4, type: 2}
+      value: 5
+    - type: {fileID: 11400000, guid: 32bfb2965bf2a19468ee391b88cb64d3, type: 2}
+      value: 5
+    - type: {fileID: 11400000, guid: d4eade2fc36c152409aa43eaf5e26d82, type: 2}
+      value: 5
+    - type: {fileID: 11400000, guid: 6717dc1fe157b434dbec71efbaa6b25d, type: 2}
+      value: 5
     output:
     - type: {fileID: 11400000, guid: 888ef8df0281fe44a9cd89bb0c8da549, type: 2}
       value: 75
@@ -115,10 +111,10 @@ MonoBehaviour:
   - key: GRP_VEHICLE
     input:
     - type: {fileID: 11400000, guid: d21211e22f2078f4a8479827fc4bf1f5, type: 2}
-      value: 30
+      value: 5
     output:
     - type: {fileID: 11400000, guid: 904881d176e018c4ca8834076df8f8a6, type: 2}
-      value: 50
+      value: 10
   - key: GRP_SINGLE_METAL
     input:
     - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
