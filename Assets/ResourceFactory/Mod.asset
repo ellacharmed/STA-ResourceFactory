@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 8e7395418881bd843b552c4e19fb9c1e, type: 3}
   modname: EllaCharmed's Resource Factory
-  desc: Adds a resource cloning factory, with recipes and storage inside. Min patch 1.4.* required.
+  desc: Adds a resource cloning factory, with recipes and storage inside. Min patch 1.5.* required.
   version: 0.3.6
