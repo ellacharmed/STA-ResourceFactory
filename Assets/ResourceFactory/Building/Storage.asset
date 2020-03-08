@@ -35,3 +35,5 @@ MonoBehaviour:
   visualStorageSize: 18
   visualStorageOffset: {x: 0, y: -1, z: 0}
   isActive: 1
+  showInBuildingUI: 1
+  isDemandStorage: 0

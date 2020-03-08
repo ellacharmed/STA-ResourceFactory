@@ -1,6 +1,6 @@
 id,English,French,German,Spanish,Portuguese,Russian,Polish,Chinese
 #RESOURCE_FACTORY,Resource Factory,,,,,,,,
-#DESC_RESOURCE_FACTORY,"Factory produce resources in eight separate groups using the Recipe feature and comes with built-in storage capacity 500,000 units. Built with patch 1.5.0.5857.",,,,,,,
+#DESC_RESOURCE_FACTORY,"Factory produce resources in separate groups using the Recipe feature and comes with built-in storage capacity for 500,000 units. Built with patch 1.5.0.5857. mod version: 0.3.6",,,,,,,
 #RECIPE_GRP_MEDICINE_DESC,"Medicine group. Magically synthesizes Antibiotic, Iodine from Medicine.",,,,,,,
 #RECIPE_GRP_RAW_DESC,"Raw resources group. Clone 5 units each of Concrete, Fiber, Plastic, Plank, Scrap and Metal.",,,,,,,
 #RECIPE_GRP_NOW_REFINE_DESC,"Refined-Now group. Use 1 each of Plastic, Plank, Metal and Scrap to clone 5 units each of Parts, Components, and Firewood.",,,,,,,
