@@ -42,24 +42,16 @@ MonoBehaviour:
       value: 5
     - type: {fileID: 11400000, guid: e13851ae2ec683a45802b5f3fc64d81c, type: 2}
       value: 5
+    - type: {fileID: 11400000, guid: 2520e983392b41c49a8d7a28bcee75f2, type: 2}
+      value: 5
     - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
       value: 5
   - key: GRP_NOW_REFINE
-    input:
-    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-      value: 1
-    - type: {fileID: 11400000, guid: e13851ae2ec683a45802b5f3fc64d81c, type: 2}
-      value: 1
-    - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
-      value: 1
-    - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
-      value: 1
+    input: []
     output:
-    - type: {fileID: 11400000, guid: 2e8e235d47fbe3341b76055658951793, type: 2}
+    - type: {fileID: 11400000, guid: 6717dc1fe157b434dbec71efbaa6b25d, type: 2}
       value: 5
     - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
-      value: 5
-    - type: {fileID: 11400000, guid: 6717dc1fe157b434dbec71efbaa6b25d, type: 2}
       value: 5
   - key: GRP_LATER_REFINE
     input:
@@ -71,10 +63,14 @@ MonoBehaviour:
       value: 1
     - type: {fileID: 11400000, guid: e13851ae2ec683a45802b5f3fc64d81c, type: 2}
       value: 2
+    - type: {fileID: 11400000, guid: 2520e983392b41c49a8d7a28bcee75f2, type: 2}
+      value: 2
     output:
     - type: {fileID: 11400000, guid: d825481e90142364693a2b92f981ecfb, type: 2}
       value: 5
     - type: {fileID: 11400000, guid: 23141150fc286cb4ab42040bd9c79774, type: 2}
+      value: 5
+    - type: {fileID: 11400000, guid: 2e8e235d47fbe3341b76055658951793, type: 2}
       value: 5
   - key: GRP_ENDPRODUCT
     input:
@@ -89,16 +85,18 @@ MonoBehaviour:
       value: 5
     - type: {fileID: 11400000, guid: 2d568a404bcac4b43ac10fa71f14497e, type: 2}
       value: 5
+    - type: {fileID: 11400000, guid: fabb320e9b2de264583df3ed2140e6e8, type: 2}
+      value: 5
+    - type: {fileID: 11400000, guid: b0cd63904c3684e4bbb23a2caf2c0cb8, type: 2}
+      value: 5
+    - type: {fileID: 11400000, guid: 2667347008532e0499bb4317fb4a770e, type: 2}
+      value: 5
+    - type: {fileID: 11400000, guid: 5acc0753e7c74d94fb3d74bcbcc22549, type: 2}
+      value: 5
   - key: GRP_FOOD
     input:
-    - type: {fileID: 11400000, guid: fb6cafae6711db743aacfe5ac86125a4, type: 2}
-      value: 5
-    - type: {fileID: 11400000, guid: 32bfb2965bf2a19468ee391b88cb64d3, type: 2}
-      value: 5
-    - type: {fileID: 11400000, guid: d4eade2fc36c152409aa43eaf5e26d82, type: 2}
-      value: 5
-    - type: {fileID: 11400000, guid: 6717dc1fe157b434dbec71efbaa6b25d, type: 2}
-      value: 5
+    - type: {fileID: 11400000, guid: 80f54a687b5a38a41b18f19de59ee24f, type: 2}
+      value: 2
     output:
     - type: {fileID: 11400000, guid: 888ef8df0281fe44a9cd89bb0c8da549, type: 2}
       value: 75
@@ -116,15 +114,15 @@ MonoBehaviour:
     - type: {fileID: 11400000, guid: 904881d176e018c4ca8834076df8f8a6, type: 2}
       value: 10
   - key: GRP_SINGLE_METAL
-    input:
-    - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
-      value: 2
+    input: []
     output:
     - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
       value: 10
   - key: GRP_SINGLE_COMPONENT
     input:
     - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
+      value: 2
+    - type: {fileID: 11400000, guid: 2520e983392b41c49a8d7a28bcee75f2, type: 2}
       value: 2
     output:
     - type: {fileID: 11400000, guid: 2e8e235d47fbe3341b76055658951793, type: 2}
@@ -137,3 +135,4 @@ MonoBehaviour:
     - type: {fileID: 11400000, guid: 617692f1335d23644b2d7389f543ccf7, type: 2}
       value: 10
   requireDeposits: 0
+  useProductionLimits: 0

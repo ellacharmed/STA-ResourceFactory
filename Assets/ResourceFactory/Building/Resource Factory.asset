@@ -28,6 +28,8 @@ MonoBehaviour:
     value: 1
   - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
     value: 1
+  - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
+    value: 1
   repairResource:
     type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
     value: 2
@@ -38,16 +40,16 @@ MonoBehaviour:
   canBeRepaired: 1
   roadID: 
   level: 1
-  icon: {fileID: 21300000, guid: 8e7395418881bd843b552c4e19fb9c1e, type: 3}
-  bigIcon: {fileID: 21300000, guid: 8e7395418881bd843b552c4e19fb9c1e, type: 3}
+  icon: {fileID: 21300000, guid: 7c6f520601453f542bb0e14555200b19, type: 3}
+  bigIcon: {fileID: 21300000, guid: 4986d7d67d05ff94eac73ed758b2930e, type: 3}
   models:
   - visual: {fileID: 1676370284329800940, guid: 4fe2f352649f54f4ea8d40de16fda8a4,
       type: 3}
     brushVisual: {fileID: 1676370284329800940, guid: 4fe2f352649f54f4ea8d40de16fda8a4,
       type: 3}
     constructions:
-    - {fileID: 100000, guid: 186f25be6eb6fed41933e11367332001, type: 3}
-    destructionModel: {fileID: 0}
+    - {fileID: 1676370284329800940, guid: 7695ebca95447ae48a4fcccff6e07646, type: 3}
+    destructionModel: {fileID: 100000, guid: 90709cb220833784bbbf31a1c4644999, type: 3}
   visualizationData:
     showDeposits: {fileID: 0}
     buildingPath:
@@ -224,16 +226,27 @@ MonoBehaviour:
   properties:
   - {fileID: 11400000, guid: 2d933c108e7c3b94ab8603f2f6c364c3, type: 2}
   - {fileID: 11400000, guid: f8127d41e33195543bb24dfd2dd4cf18, type: 2}
+  indestructible: 0
+  damageMultiplier: 1
+  combatDamageMultiplier: 0.25
+  isAffectedByPollution: 0
+  isDisabledByPollution: 1
+  pollutionShielding: 0
+  pollutionResistance: 0
+  createPollution: 0
+  alwaysCreatePollution: 0
+  pollutionCreationRate: 0
   hideFunctionButtons: 0
   hideHealthElement: 1
   hideDescriptionElement: 0
-  hideEfficiencyElement: 1
+  hideEfficiencyElement: 0
+  hideHealthBar: 0
   placement:
     tiles:
       x: 5
       y: 6
-    topReserved: 0
-    bottomReserved: 1
+    topReserved: 1
+    bottomReserved: 0
     leftReserved: 0
     rightReserved: 0
     placementTiles: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -242,23 +255,25 @@ MonoBehaviour:
   onlyDrySoil: 0
   showRadius: 0
   showRadiusTileGrid: 0
+  useTileEfficiency: 0
   cellEfficiencyMode: 0
   useWorkAreaEfficiency: 0
-  canEditWorkarea: 1
+  canEditWorkarea: 0
+  workAreaType: 0
   highlightDeposits: 1
-  canResizeWorkarea: 1
+  highlightWaterConsumers: 0
+  canResizeWorkarea: 0
   canEditStorage: 1
   targetEfficiency: 0.9
   isUnique: 0
   isRemovable: 1
-  indestructible: 0
-  damageMultiplier: 1
   restrictedPlacement: 0
   onlyDeepDeposits: 0
   restrictedPlacementPosition: {x: 0, y: 0}
   decalOverride: {fileID: 0}
   decalEnabled: 1
   workAreaRadius: 7
+  randomRotation: 0
   buildingDestoyedSoundEvent:
     eventName: 
     eventParams: []
