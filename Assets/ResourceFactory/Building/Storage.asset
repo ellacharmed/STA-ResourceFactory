@@ -29,11 +29,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3f7cca8fa27e3aa45917223fe8c3c9a6, type: 2}
   - {fileID: 11400000, guid: d21211e22f2078f4a8479827fc4bf1f5, type: 2}
   - {fileID: 11400000, guid: 904881d176e018c4ca8834076df8f8a6, type: 2}
+  - {fileID: 11400000, guid: d566076c14eedf041948f03553d82bd9, type: 2}
+  - {fileID: 11400000, guid: 95a9d925afdfbeb4bb505fccf11165cc, type: 2}
+  - {fileID: 11400000, guid: fabb320e9b2de264583df3ed2140e6e8, type: 2}
+  - {fileID: 11400000, guid: b0cd63904c3684e4bbb23a2caf2c0cb8, type: 2}
+  - {fileID: 11400000, guid: 2667347008532e0499bb4317fb4a770e, type: 2}
+  - {fileID: 11400000, guid: 5acc0753e7c74d94fb3d74bcbcc22549, type: 2}
+  - {fileID: 11400000, guid: 2520e983392b41c49a8d7a28bcee75f2, type: 2}
   capacity: 500000
   canHarvestDeposits: 0
-  isVisual: 0
-  visualStorageSize: 18
-  visualStorageOffset: {x: 0, y: -1, z: 0}
+  isVisual: 1
+  visualStorageSize: 2
+  visualStorageOffset: {x: 0, y: 0.5, z: 0}
   isActive: 1
   showInBuildingUI: 1
   isDemandStorage: 0

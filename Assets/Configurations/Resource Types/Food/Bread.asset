@@ -24,3 +24,7 @@ MonoBehaviour:
   weight: 10
   value: 100
   tradeValue: 12
+  category: 1
+  vegetableValue: 0.03
+  meatValue: 0
+  hungerFillValue: 1
