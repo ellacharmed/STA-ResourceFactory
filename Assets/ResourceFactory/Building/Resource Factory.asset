@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: -1677054141, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
   m_Name: Resource Factory
   m_EditorClassIdentifier: 
-  id: 1211970904
+  id: 1211191020
   basicBuilding: {fileID: 0}
   unlockCondition: 0
   name: '#RESOURCE_FACTORY'
-  buildingTechDescription: 
+  buildingTechDescription: tech desc
   category: 4
   menuType: 0
   includedInStatistics: 1
-  showDetailsInTechInfo: 1
+  showDetailsInTechInfo: 0
   priority: 99
+  minimumGamePhase: 20
   buildResource: 1
   resources:
   - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
@@ -39,7 +40,7 @@ MonoBehaviour:
   workSlotCount: 2
   canBeRepaired: 1
   roadID: 
-  level: 1
+  level: 0
   icon: {fileID: 21300000, guid: 7c6f520601453f542bb0e14555200b19, type: 3}
   bigIcon: {fileID: 21300000, guid: 4986d7d67d05ff94eac73ed758b2930e, type: 3}
   models:
@@ -223,6 +224,7 @@ MonoBehaviour:
         eventParams: []
       soundEventDelay: 0
     loopWorkingPath: 1
+  skipEntryPath: 0
   properties:
   - {fileID: 11400000, guid: 2d933c108e7c3b94ab8603f2f6c364c3, type: 2}
   - {fileID: 11400000, guid: f8127d41e33195543bb24dfd2dd4cf18, type: 2}
@@ -230,16 +232,16 @@ MonoBehaviour:
   damageMultiplier: 1
   combatDamageMultiplier: 0.25
   isAffectedByPollution: 0
-  isDisabledByPollution: 1
+  isDisabledByPollution: 0
   pollutionShielding: 0
   pollutionResistance: 0
   createPollution: 0
   alwaysCreatePollution: 0
   pollutionCreationRate: 0
   hideFunctionButtons: 0
-  hideHealthElement: 1
-  hideDescriptionElement: 0
-  hideEfficiencyElement: 0
+  hideHealthElement: 0
+  hideDescriptionElement: 1
+  hideEfficiencyElement: 1
   hideHealthBar: 0
   placement:
     tiles:
@@ -250,7 +252,7 @@ MonoBehaviour:
     leftReserved: 0
     rightReserved: 0
     placementTiles: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  placementType: 0
+  placementType: 1
   noDrySoil: 0
   onlyDrySoil: 0
   showRadius: 0
@@ -260,7 +262,7 @@ MonoBehaviour:
   useWorkAreaEfficiency: 0
   canEditWorkarea: 0
   workAreaType: 0
-  highlightDeposits: 1
+  highlightDeposits: 0
   highlightWaterConsumers: 0
   canResizeWorkarea: 0
   canEditStorage: 1
