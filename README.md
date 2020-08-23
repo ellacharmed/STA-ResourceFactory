@@ -30,16 +30,18 @@ And then my "pet-peeves" were shown not to be an isolated incident. And indeed, 
 - Has 2 worker slots. Enable and disable as appropriate when you need faster production or when you need the workforce to be engaged elsewhere.
 - Churning out groups of resources takes 1 min (in-game time), when there's a worker available. (v0.3.0)
 - Have built-in capacity storage for 500,000 units for the resources. (v0.3.0)
+
   - Added Fuel and Oil from Expeditions update (v0.3.6)
   - Added Weapons from Hostile World update (v0.3.6)
   - Added 2nd Tier of Clothing and Tools from Tainted Earth update (v0.3.6)
-
-![resource-factory with storage](Assets/Images/sta-resource-factory-with-storage.png "resource-factory with storage")
+    ![resource-factory with storage](Assets/Images/sta-resource-factory-with-storage.png "resource-factory with storage")
 
 - Removed the disaster-related features and the Energy requirement in the Fish Factory sample mod. (v0.3.5)
 - Removed the use of Input values to clone basic resources under "Raw" group due to [issue #7](https://github.com/ellacharmed/STA-ResourceFactory/issues/7). Since resources shall not be consumed to clone more, I've reduced the output values so the Storage and Stockpile won't be overloaded.
 
-- Since the Resource Factory is using the Fish Factory's mesh, I've differrentiated them by placing a logo on the building's roof. (v0.3.6). I've also been updating the Fish Factory for every patch cycle. You can get it from the [StA-FishFactory release page](https://github.com/ellacharmed/StA-FishFactory/releases) ![fish vs resource](Assets/Images/fish-vs-resource.jpg "fish vs resource")
+- Since the Resource Factory is using the Fish Factory's mesh, I've differrentiated them by placing a logo on the building's roof. (v0.3.6). I've also been updating the Fish Factory for every patch cycle. You can get it from the [StA-FishFactory release page](https://github.com/ellacharmed/StA-FishFactory/releases). ![fish vs resource](Assets/Images/fish-vs-resource.jpg "fish vs resource")
+- Added Production Limit.
+- Added new recipes for Food and tweaked Planks and Metals yet again.
 
 ## Requirements
 
@@ -56,57 +58,72 @@ And then my "pet-peeves" were shown not to be an isolated incident. And indeed, 
 - Output: see list below for each recipe group
 - Select the recipe group for the products you wish to clone.
 
-  1.  Recipe group: Medicine
+  1. Recipe group: Medicine
 
-      - Input: Medicine 1
-      - Output: 1 Medicine synthesizes to 5 Antibiotics, 5 Iodine
+     - Input: Medicine 1
+     - Output: 1 Medicine synthesizes to 5 Antibiotics, 5 Iodine
 
-  1.  Recipe group: Raw resources group
+  1. Recipe group: Raw resources group
 
-      - Input: None
-      - Output: 5 each of Concrete, Fiber, Plastic, Plank, Scrap, Metal, Rare.
+     - Input: None
+     - Output: 5 each of Concrete, Fiber, Plastic, Scrap, Rare Metals. 10 each of Plank, Metal.
 
-  1.  Recipe group: Refined-Now group.
+  1. Recipe group: Refined-Now group.
 
-      - Input: 1 each of Plastic, Plank, Metal and Scrap.
-      - Output: 5 units each of Parts, and Firewood.
+     - Input: 1 each of Plastic, Plank, Metal and Scrap.
+     - Output: 5 units each of Parts, and Firewood.
 
-  1.  Recipe group: Refine-Later group.
+  1. Recipe group: Refine-Later group.
 
-      - Input: 1 Plastic, 1 Metal, 2 Parts, 2 Scrap and 2 Rare.
-      - Output: 5 units each of Components, Electronics and Funbox.
+     - Input: 1 Plastic, 1 Metal, 2 Parts, 2 Scrap and 2 Rare.
+     - Output: 5 units each of Components, Electronics and Funbox.
 
-  1.  Recipe group: End-product group.
+  1. Recipe group: End-product group.
 
-      - Input: 1 unit each of Fiber, Metal and Scrap
-      - Output: 5 units each of Clothes (Basic + Protective), Tools (Basic + Advanced), Weapons (Hunting Rifle + Shotgun).
+     - Input: 1 unit each of Fiber, Metal and Scrap
+     - Output: 5 units each of Clothes (Basic + Protective), Tools (Basic + Advanced), Weapons (Hunting Rifle + Shotgun).
 
-  1.  Recipe group: Emergency food group.
+  1. Recipe group: Exploratory resource group.
 
-      - Input: 2 Berries
-      - Output: 75 units each of emergency food consisting Soybean, Wheat, Insect Meals and Mixed Meals.
+     - Input: 5 Oil
+     - Output: 10 Fuel
 
-  1.  Recipe group: Exploratory resource group.
+  1. Recipe group: Plank + Metal only.
 
-      - Input: 5 Oil
-      - Output: 10 Fuel
+     - Input: None
+     - Output: 10 each of Plank, Metal.
 
-  1.  Recipe group: METAL only.
+  1. Recipe group: COMPONENT only.
 
-      - Input: None
-      - Output: 10 Metal
+     - Input: 2 units each Parts and Rare Metal.
+     - Output: 10 units of Components
 
-  1.  Recipe group: COMPONENT only.
+  1. Recipe group: IODINE only.
 
-      - Input: 2 units each Parts and Rare
-      - Output: 10 units of Components
+     - Input: 2 Medicine
+     - Output: 10 Iodine
 
-  1.  Recipe group: IODINE only.
+  1. Recipe group: Vegetable food group.
 
-      - Input: 2 Medicine
-      - Output: 10 Iodine
+     - Input: 1 Berries
+     - Output: 50 units each of vegetarian food consisting Soybean, Wheat, Potato and 75 VegeMeals.
 
-[![Watch the video](Assets/Images/vid_poster_image.jpg)](https://youtu.be/SMTmhD1iRSE "Click to play recipe-groups") _Click image to play video via Youtube_
+  1. Recipe group: Meat food group.
+
+     - Input: 1 Venison
+     - Output: 50 units each of meat food consisting Fish, Jerky, ProteinBars and 75 MeatMeals.
+
+  1. Recipe group: Insect food group.
+
+     - Input: 1 Cockroach
+     - Output: 50 units each of insect food consisting Crickets, Waxworms, Mealworms and 75 InsectMeals.
+
+  1. Recipe group: Produce food group.
+
+     - Input: 1 Venison
+     - Output: 50 units each of produce and processed food consisting Bread, Egg, Milk and 75 MixedMeals.
+
+[![Watch the video](Assets/Images/vid_poster_image.jpg)](https://youtu.be/SMTmhD1iRSE "Click to play recipe-groups") _Click image to play video via Youtube; video recorded while on Update 8_
 
 ## Known issues
 
