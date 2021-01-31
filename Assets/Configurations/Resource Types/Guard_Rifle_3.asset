@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2122849384, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
+  m_Name: Guard_Rifle_3
+  m_EditorClassIdentifier: 
+  id: 69
+  parentResource: {fileID: 0}
+  resourceVisualPrefab: {fileID: 8149724371220675585, guid: 0bc57dacc1fbeef4e8e73a0db88b8ca6,
+    type: 3}
+  decayDuration: 1400
+  resourceTypeCategory: 0
+  harvestTime: 15
+  harvestAmount: 3
+  carryOffset: {x: -0.18, y: -0.032, z: -0.083}
+  carryScale: {x: 0.6, y: 0.6, z: 0.6}
+  carryRotation: {x: 70, y: 0, z: 0}
+  weight: 3
+  value: 300
+  tradeValue: 225
+  resourceTradeCategory: 16
+  vegetableValue: 0
+  meatValue: 0
+  hungerFillValue: 0.5
+  pollutionValue: 0

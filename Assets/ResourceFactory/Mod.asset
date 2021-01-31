@@ -15,6 +15,6 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 4986d7d67d05ff94eac73ed758b2930e, type: 3}
   modname: EllaCharmed's Resource Factory
   desc: Adds a resource cloning factory, with recipes and storage inside. Min patch
-    1.9.0 required.
-  version: 0.3.6
-  startID: 1708260000
+    1.12.4 required.
+  version: 0.4
+  startID: 529270000

@@ -16,14 +16,17 @@ MonoBehaviour:
   basicBuilding: {fileID: 0}
   unlockCondition: 0
   name: '#RESOURCE_FACTORY'
-  buildingTechDescription: tech desc
+  buildingTechDescription: 
   category: 4
   menuType: 0
   includedInStatistics: 1
-  showDetailsInTechInfo: 0
-  priority: 99
-  minimumGamePhase: 20
-  buildResource: 1
+  showDetailsInTechInfo: 1
+  priority: 0
+  activateSuitableOverlay: 0
+  activateAreaOfEffectOverlay: 0
+  overrideSuitableOverlay: 0
+  minimumGamePhase: 30
+  buildResource: 0
   resources:
   - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
     value: 1
@@ -33,14 +36,14 @@ MonoBehaviour:
     value: 1
   repairResource:
     type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-    value: 2
+    value: 4
   destructionResources:
   - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
     value: 2
-  workSlotCount: 2
+  workSlotCount: 0
   canBeRepaired: 1
   roadID: 
-  level: 0
+  level: 1
   icon: {fileID: 21300000, guid: 7c6f520601453f542bb0e14555200b19, type: 3}
   bigIcon: {fileID: 21300000, guid: 4986d7d67d05ff94eac73ed758b2930e, type: 3}
   models:
@@ -49,7 +52,7 @@ MonoBehaviour:
     brushVisual: {fileID: 1676370284329800940, guid: 4fe2f352649f54f4ea8d40de16fda8a4,
       type: 3}
     constructions:
-    - {fileID: 1676370284329800940, guid: 7695ebca95447ae48a4fcccff6e07646, type: 3}
+    - {fileID: 1676370284329800940, guid: eb1921f87b58dd041b8bcfaa7e286821, type: 3}
     destructionModel: {fileID: 100000, guid: 90709cb220833784bbbf31a1c4644999, type: 3}
   visualizationData:
     showDeposits: {fileID: 0}
@@ -70,22 +73,7 @@ MonoBehaviour:
           eventName: 
           eventParams: []
         soundEventDelay: 0
-      - worldPosition: {x: 2, y: 0, z: 0}
-        doorUse:
-          useDoor: 1
-          doorId: 0
-        isInside: 0
-        isActionNode: 0
-        waitTime: 0
-        shouldRotate: 0
-        lookDirection: {x: 0, y: 0, z: 0}
-        animationID: 0
-        toolID: 6
-        soundEvent:
-          eventName: 
-          eventParams: []
-        soundEventDelay: 0
-      - worldPosition: {x: 3, y: 0, z: 0}
+      - worldPosition: {x: 2, y: 0, z: 2}
         doorUse:
           useDoor: 0
           doorId: 0
@@ -100,39 +88,9 @@ MonoBehaviour:
           eventName: 
           eventParams: []
         soundEventDelay: 0
-      - worldPosition: {x: 4, y: 0, z: 0.5}
+      - worldPosition: {x: 2, y: 0, z: 2}
         doorUse:
           useDoor: 0
-          doorId: 0
-        isInside: 0
-        isActionNode: 1
-        waitTime: 10
-        shouldRotate: 1
-        lookDirection: {x: 0, y: 135, z: 0}
-        animationID: 4
-        toolID: 6
-        soundEvent:
-          eventName: 
-          eventParams: []
-        soundEventDelay: 0
-      - worldPosition: {x: 3, y: 0, z: 0}
-        doorUse:
-          useDoor: 0
-          doorId: 0
-        isInside: 0
-        isActionNode: 0
-        waitTime: 0
-        shouldRotate: 0
-        lookDirection: {x: 0, y: 0, z: 0}
-        animationID: 0
-        toolID: 6
-        soundEvent:
-          eventName: 
-          eventParams: []
-        soundEventDelay: 0
-      - worldPosition: {x: 2, y: 0, z: 0}
-        doorUse:
-          useDoor: 1
           doorId: 0
         isInside: 0
         isActionNode: 0
@@ -164,9 +122,54 @@ MonoBehaviour:
         doorUse:
           useDoor: 0
           doorId: 0
-        isInside: 1
-        isActionNode: 1
-        waitTime: 5
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 2, y: 0, z: 2}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 2, y: 0, z: 2}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 2, y: 0, z: 2}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
         shouldRotate: 0
         lookDirection: {x: 0, y: 0, z: 0}
         animationID: 0
@@ -228,18 +231,20 @@ MonoBehaviour:
   properties:
   - {fileID: 11400000, guid: 2d933c108e7c3b94ab8603f2f6c364c3, type: 2}
   - {fileID: 11400000, guid: f8127d41e33195543bb24dfd2dd4cf18, type: 2}
-  indestructible: 0
+  indestructible: 1
   damageMultiplier: 1
   combatDamageMultiplier: 0.25
-  isAffectedByPollution: 0
+  isAffectedByPollution: 1
   isDisabledByPollution: 0
-  pollutionShielding: 0
-  pollutionResistance: 0
+  isDisabledByCold: 1
+  canReceiveHeat: 1
+  pollutionShielding: 85
+  pollutionResistance: 10
   createPollution: 0
   alwaysCreatePollution: 0
   pollutionCreationRate: 0
   hideFunctionButtons: 0
-  hideHealthElement: 0
+  hideHealthElement: 1
   hideDescriptionElement: 1
   hideEfficiencyElement: 1
   hideHealthBar: 0
@@ -247,23 +252,24 @@ MonoBehaviour:
     tiles:
       x: 5
       y: 6
-    topReserved: 1
-    bottomReserved: 0
+    topReserved: 0
+    bottomReserved: 1
     leftReserved: 0
     rightReserved: 0
     placementTiles: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  placementType: 1
+  placementType: 0
   noDrySoil: 0
   onlyDrySoil: 0
   showRadius: 0
   showRadiusTileGrid: 0
   useTileEfficiency: 0
   cellEfficiencyMode: 0
-  useWorkAreaEfficiency: 0
+  useWorkAreaEfficiency: 1
   canEditWorkarea: 0
   workAreaType: 0
   highlightDeposits: 0
   highlightWaterConsumers: 0
+  highlightEnergyNodes: 0
   canResizeWorkarea: 0
   canEditStorage: 1
   targetEfficiency: 0.9
@@ -273,13 +279,13 @@ MonoBehaviour:
   onlyDeepDeposits: 0
   restrictedPlacementPosition: {x: 0, y: 0}
   decalOverride: {fileID: 0}
-  decalEnabled: 1
+  decalEnabled: 0
   workAreaRadius: 7
   randomRotation: 0
-  buildingDestoyedSoundEvent:
-    eventName: 
-    eventParams: []
-  buildingRunningSoundEvent:
-    eventName: 
-    eventParams: []
+  buildingDestroyedSoundEvent: 
+  buildingRunningSoundEvent: 
+  buildingSelectedSoundEvent: 
   damageTargetTypes: 0
+  upgradeBuildingTemplate: {fileID: 0}
+  upgradeType: 0
+  isUpgrade: 0

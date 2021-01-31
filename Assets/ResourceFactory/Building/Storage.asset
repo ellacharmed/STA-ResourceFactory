@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Storage
   m_EditorClassIdentifier: 
   storageType: 1
+  rowCountInUI: 3
   allowedResources:
-  - {fileID: 11400000, guid: 4c8f12450da84e44fa974faa4cff8e23, type: 2}
+  - {fileID: 11400000, guid: c0509161f6468164eac35fe6780d46fd, type: 2}
   - {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
   - {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
   - {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
@@ -41,11 +42,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 39aa4ac002871d04eba4b9301d113917, type: 2}
   - {fileID: 11400000, guid: 7c6634870ae6e064688be274207eb4c5, type: 2}
   - {fileID: 11400000, guid: b79c60fb4bdbe3648846e1616c42f30e, type: 2}
+  - {fileID: 11400000, guid: ac2132a7fe378a943a0d2ca99c552bb1, type: 2}
+  - {fileID: 11400000, guid: c139fffa3f1101a43a491e5f1f26a833, type: 2}
+  - {fileID: 11400000, guid: 1967a1e7b162e8b4eaa50acdfb250800, type: 2}
+  - {fileID: 11400000, guid: d32165539523f2341929ed7cdd54730e, type: 2}
   capacity: 50000
   canHarvestDeposits: 0
-  isVisual: 1
-  visualStorageSize: 0
+  isVisual: 0
+  visualStorageSize: 1
   visualStorageOffset: {x: 0, y: 0.1, z: 0}
   isActive: 1
   showInBuildingUI: 1
   isDemandStorage: 0
+  demandStorageThreshold: 1
