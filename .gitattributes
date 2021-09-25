@@ -9,3 +9,6 @@
 *.unity eol=lf
 ProjectVersion.txt eol=lf
 Packages/manifest.json eol=lf
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.xcf filter=lfs diff=lfs merge=lfs -text
