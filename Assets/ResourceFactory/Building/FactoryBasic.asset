@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1677054141, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
+  m_Name: FactoryBasic
+  m_EditorClassIdentifier: 
+  id: 1211210313
+  basicBuilding: {fileID: 0}
+  unlockCondition: 0
+  name: '#BASIC_FACTORY'
+  buildingTechDescription: '#DESC_BASIC_FACTORY'
+  category: 4
+  menuType: 0
+  includedInStatistics: 1
+  showDetailsInTechInfo: 1
+  isCampsite: 0
+  priority: 0
+  enableProductionLimit: 1
+  activateSuitableOverlay: 0
+  activateAreaOfEffectOverlay: 0
+  overrideSuitableOverlay: 0
+  minimumGamePhase: 20
+  buildResource: 0
+  resources:
+  - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
+    value: 4
+  - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
+    value: 2
+  repairResource:
+    type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
+    value: 5
+  destructionResources:
+  - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
+    value: 5
+  workSlotCount: 0
+  canBeRepaired: 1
+  roadID: 
+  level: 1
+  icon: {fileID: 21300000, guid: ae4f7eacb9a8a6340acdc3d91dcae136, type: 3}
+  bigIcon: {fileID: 21300000, guid: ae4f7eacb9a8a6340acdc3d91dcae136, type: 3}
+  models:
+  - visual: {fileID: 1676370284329800940, guid: 4c4500c940a9ec44bbfd15ddccbc47d4,
+      type: 3}
+    brushVisual: {fileID: 1676370284329800940, guid: 651abd7ec31393d46a29f49dabc7d649,
+      type: 3}
+    constructions:
+    - {fileID: 1676370284329800940, guid: 651abd7ec31393d46a29f49dabc7d649, type: 3}
+    destructionModel: {fileID: 100000, guid: 90709cb220833784bbbf31a1c4644999, type: 3}
+  visualizationData:
+    showDeposits: {fileID: 0}
+    buildingPath:
+    - nodes:
+      - worldPosition: {x: 2, y: 0, z: 2}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 2, y: 0, z: 0}
+        doorUse:
+          useDoor: 1
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 3, y: 0, z: 0}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 4, y: 0, z: 0.5}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 0
+        isActionNode: 1
+        waitTime: 10
+        shouldRotate: 1
+        lookDirection: {x: 0, y: 135, z: 0}
+        animationID: 4
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 3, y: 0, z: 0}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 2, y: 0, z: 0}
+        doorUse:
+          useDoor: 1
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 2, y: 0, z: 2}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 2, y: 0, z: 2}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 1
+        isActionNode: 1
+        waitTime: 5
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 6
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      useWorkpathTools: 1
+      isActive: 1
+    entryPath:
+    - worldPosition: {x: 2, y: 0, z: -1}
+      doorUse:
+        useDoor: 0
+        doorId: 0
+      isInside: 0
+      isActionNode: 0
+      waitTime: 0
+      shouldRotate: 0
+      lookDirection: {x: 0, y: 0, z: 0}
+      animationID: 0
+      toolID: 0
+      soundEvent:
+        eventName: 
+        eventParams: []
+      soundEventDelay: 0
+    - worldPosition: {x: 2, y: 0, z: -0.45}
+      doorUse:
+        useDoor: 0
+        doorId: 0
+      isInside: 0
+      isActionNode: 0
+      waitTime: 0
+      shouldRotate: 0
+      lookDirection: {x: 0, y: 0, z: 0}
+      animationID: 0
+      toolID: 0
+      soundEvent:
+        eventName: 
+        eventParams: []
+      soundEventDelay: 0
+    - worldPosition: {x: 2, y: 0, z: 2}
+      doorUse:
+        useDoor: 1
+        doorId: 0
+      isInside: 1
+      isActionNode: 1
+      waitTime: 5
+      shouldRotate: 0
+      lookDirection: {x: 0, y: 0, z: 0}
+      animationID: 0
+      toolID: 0
+      soundEvent:
+        eventName: 
+        eventParams: []
+      soundEventDelay: 0
+    loopWorkingPath: 0
+  skipEntryPath: 0
+  properties:
+  - {fileID: 11400000, guid: 2e32fa39c42144c4489ad1ca0dbff3b4, type: 2}
+  indestructible: 1
+  damageMultiplier: 1
+  combatDamageMultiplier: 0.25
+  isAffectedByPollution: 1
+  isDisabledByPollution: 0
+  isDisabledByCold: 0
+  canReceiveHeat: 1
+  pollutionShielding: 0
+  pollutionResistance: 0
+  createPollution: 0
+  alwaysCreatePollution: 0
+  pollutionCreationRate: 0
+  hideFunctionButtons: 0
+  hideHealthElement: 1
+  hideDescriptionElement: 1
+  hideEfficiencyElement: 1
+  hideHealthBar: 0
+  hideStatusBlock: 0
+  placement:
+    tiles:
+      x: 5
+      y: 6
+    topReserved: 0
+    bottomReserved: 1
+    leftReserved: 0
+    rightReserved: 0
+    placementTiles: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  placementType: 0
+  noDrySoil: 0
+  onlyDrySoil: 0
+  showRadius: 0
+  showRadiusTileGrid: 0
+  useTileEfficiency: 0
+  cellEfficiencyMode: 0
+  useWorkAreaEfficiency: 0
+  canEditWorkarea: 0
+  workAreaType: 0
+  highlightDeposits: 0
+  highlightWaterConsumers: 0
+  highlightEnergyNodes: 0
+  canResizeWorkarea: 0
+  canEditStorage: 0
+  targetEfficiency: 0.9
+  isUnique: 0
+  isRemovable: 1
+  restrictedPlacement: 0
+  onlyDeepDeposits: 0
+  restrictedPlacementPosition: {x: 0, y: 0}
+  decalOverride: {fileID: 0}
+  decalEnabled: 0
+  workAreaRadius: 7
+  randomRotation: 0
+  buildingDestroyedSoundEvent: 
+  buildingRunningSoundEvent: 
+  buildingSelectedSoundEvent: 
+  damageTargetTypes: 0
+  upgradeBuildingTemplate: {fileID: 0}
+  upgradeType: 0
+  isUpgrade: 0

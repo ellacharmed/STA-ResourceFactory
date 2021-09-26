@@ -1,9 +1,15 @@
 fileFormatVersion: 2
 guid: 14977cdac3d6f9f45b14ecb7232161e6
 TextureImporter:
+<<<<<<< HEAD
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+=======
   fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 9
+>>>>>>> master
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -57,8 +63,14 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+<<<<<<< HEAD
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+=======
   platformSettings:
   - serializedVersion: 2
+>>>>>>> master
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -69,17 +81,30 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> master
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+=======
     spriteID: d18c4d81f6a2c8148bb2edf3ec8ba8c6
+>>>>>>> master
     vertices: []
     indices: 
     edges: []
     weights: []
+<<<<<<< HEAD
+    secondaryTextures: []
+=======
+>>>>>>> master
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

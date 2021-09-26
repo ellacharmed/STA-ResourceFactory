@@ -21,27 +21,36 @@ With the introduction of the Resource Extractors in one of the updates, I had th
 
 ### Game design constraints
 
-- ~~The MODS user interface in the game's Main Menu has no scrollable panel to go to a second page, so we are limited to using 4 mods at a time (for now). Even if you placed more than 4 files in the Mods folder in Windows Explorer, only 4 would be visible.~~
-- ~~One mod to rule them all situation (for now). All the buildings will be overwritten by one mod upon the next load of the Save game. This appears to be a modtool design limitation, for the moment. Unless I missed a configuration somewhere.~~
-- Developers introduced the soft-cap of 100 survivors, no matter the duration of the Save game. So this mod would alleviate the need for too many production buildings that require workers.
+- Due to the game design only allowing 1 function per building, built-in Storage has been removed from all factories. You need the in-game storage now.
+- This design constrain also means that I could not make each factory have a secondary function of providing auto-scout map, power, water, and heat.
 
 ### Mod design
 
-- Located in Build menu under Resources tab, as shown in introduction image above.
-- With the tweaked Production and Consumption value of resources in patch version **1.12.4.8223 (Jan 2021)**,, I find that some resources simply cannot keep up with the demand in vanilla games. So, I've revamped all the Recipes and revert back to producing individual item types, except for the Pharmaceuticals, Tools, Clothing, Weapons and Food.
+- Buildings available after "Shoot the flare" step.
+
+- Located in Build menu under Resources tab, as shown in introduction image above. Food Factory is located under Food tab.
+
+- The Recipes produce individual item types.
+
 - ![pause-button](Assets/Images/pause-button.png "pause-button")Includes a Pause button to halt production as and when required. (patch 1.0)
+
 - ![Production Limit](Assets/Images/production-limit.png "Production Limit")Added Production Limit. Use together with the Pause button so you don't overwhelmed your colony with transporting-resources-tasks when you don't have enough Carriers for other essential transporting tasks (like transporting Firewood).
-- Currently made "**Automated**" like the upgraded Resource Extractors. Removed the worker slots. Encountered issue when assigning and unassigning workers - the ever-revolving no worker icon - even with enough free Carriers around. Have compared against Fish Factory which had no such issue, so need further study.
-- ![visual-storage](Assets/Images/visual-storage.png "visual-storage")Have built-in capacity storage for 500,000 units of resources. (patch 1.5)
+
+- Currently made "**Automated**" like the upgraded Resource Extractors for Basic and Pharma.
+
+- 2 Worker slots for Food and Manufacturing, these 2 buildings also require inputs. So that the stored items would be used and relieve the Storage capacity.
+
 - Removed the disaster-related features and the Energy requirement in the Fish Factory sample mod.
-- Removed the use of Input values to clone basic resources under "Raw" group due to [issue #7](https://github.com/ellacharmed/STA-ResourceFactory/issues/7). Since resources shall not be consumed to clone more, I've reduced the output values so the Storage and Stockpile won't be overloaded.
+
+- Removed the use of Input values to clone basic resources due to [issue #7](https://github.com/ellacharmed/STA-ResourceFactory/issues/7). Since resources shall not be consumed to clone more, I've reduced the output values so the Storage and Stockpile won't be overloaded.
+
 - Since the Resource Factory is using the Fish Factory's mesh, the buildings have been differrentiated by placing a logo on the building's roof. (v0.3.6). I've also been updating the Fish Factory for every patch cycle. You can get it from the [StA-FishFactory release page](https://github.com/ellacharmed/StA-FishFactory/releases). ![fish vs resource](Assets/Images/fish-vs-resource.jpg "fish vs resource")
 
 ## Requirements
 
-- ![constuction-cost](Assets/Images/constuction-cost.png "constuction-cost")Construction Cost: 1 Plank, 1 Metal, 1 Plastic
+- Construction Cost: 4 Plank, 2 Plastic
 - ~~Repair cost: Metal 2 units~~ Made Indestructible. Repair resources taken to building but turn red again with no repair done. Same issue with Fish Factory, so need further study.
-- Demolished returns: Metal 2 units
+- Demolished returns: 5 Plastic
 
 ## Expected outcome
 
@@ -70,16 +79,18 @@ With the introduction of the Resource Extractors in one of the updates, I had th
 
 ## Links
 
-![fish-factory-mod](Assets/Images/sta-fish-factory-build-menu-location.jpg "Fish Factory mod")
+![fish-factory-mod](https://steamuserimages-a.akamaihd.net/ugc/1769329128553792572/0D6D81F8EE4B776F7CEEEE9EA86640A4FE502DFC/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false "Fish Factory mod")
 
 - Ella's version of the Fish Factory. Fixed some text in Localization and Events. Changed icon.
   - [download from github](https://github.com/ellacharmed/StA-FishFactory)
+  - [subscribe from Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2472277310)
 
-![Windfall-event-mod](Assets/Images/sta-windfall-event-mod.jpg "windfall event mod")
+![Windfall-event-mod](https://steamuserimages-a.akamaihd.net/ugc/1769329097644045757/C08DB431BC041D7387946FC8C22E9AAE1A3096D0/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true "windfall event mod")
 
 - Windfall mod
 
   - [download from github](https://github.com/ellacharmed/STA-Windfall)
   - [download from paradoxplaza](https://mods.paradoxplaza.com/mods/3571/Any)
+  - [subscribe from Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2472277310)
 
 - [How to install and use Mods in Surviving the Aftermath](https://ellacharmed.wordpress.com/2019/11/04/how-to-use-mods-in-surviving-the-aftermath/) guide via [ellacharmed](ellacharmed.wordpress.com)'s Wordpress blog

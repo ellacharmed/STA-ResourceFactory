@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: -1728751535, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
   m_Name: Mod
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 4986d7d67d05ff94eac73ed758b2930e, type: 3}
+  icon: {fileID: 21300000, guid: ae4f7eacb9a8a6340acdc3d91dcae136, type: 3}
   modname: EllaCharmed's Resource Factory
-  desc: Adds a resource cloning factory, with recipes and storage inside. Min patch
-    1.12.4 required.
-  version: 0.4
-  startID: 529270000
+  desc: Adds a resource cloning factory, with recipes. Compatible with patch 1.17
+    only.
+  version: 1.17
+  tags:
+  - Buildings
+  - Events
+  - Disasters
+  startID: 1211210313

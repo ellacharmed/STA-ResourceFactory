@@ -30,7 +30,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: 070ada3f356867648b128dca257d6bb9, type: 2}
+  m_Settings: {fileID: 11400000, guid: e76fbb2feae5ea94997cc7c97c2a75e0, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: b5d5f5c931aa5164bb08aa021b922f75, type: 2}
+    - {fileID: 11400000, guid: f1da87c5ae2e8474fa25ea9552f96cdc, type: 2}
