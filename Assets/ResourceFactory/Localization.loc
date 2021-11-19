@@ -1,6 +1,6 @@
 id,English,French,German,Spanish,Portuguese,Russian,Polish,Chinese
 #BASIC_FACTORY,"Basic Resource Factory","Ressources de base usine","Grundressourcenfabrik","Recursos básicos fábrica","Fábrica de recursos básicos.","Фабрика Базовых Ресурсов","Podstawowa fabryka zasobów","基础资源工厂"
-#DESC_BASIC_FACTORY,"This charmed Resource Factory produces resources using the Recipe feature. Built with patch 1.17.1.",French,German,Spanish,Portuguese,"Производит базовые ресурсы используя чертежи. Версия игры 1.17.1",Polish,Chinese
+#DESC_BASIC_FACTORY,"This charmed Resource Factory produces resources using the Recipe feature.",French,German,Spanish,Portuguese,"Производит базовые ресурсы используя чертежи.",Polish,Chinese
 #RECIPE_aPlank,"Plank",,,,,,,
 #RECIPE_aConcrete,"Concrete",,,,,,,
 #RECIPE_aPlastic,"Plastic",,,,,,,
