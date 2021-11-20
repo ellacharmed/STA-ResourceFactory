@@ -1,0 +1,196 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1199095503540961584
+  },
+  "m_Name": "Stockpile",
+  "id": 1,
+  "basicBuilding": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "unlockCondition": 0,
+  "name": "#STORAGE_OUTSIDE",
+  "buildingTechDescription": "#DESC_STORAGE_OUTSIDE",
+  "category": 2,
+  "menuType": 0,
+  "includedInStatistics": 1,
+  "showDetailsInTechInfo": 1,
+  "isCampsite": 0,
+  "priority": 1,
+  "enableProductionLimit": 1,
+  "activateSuitableOverlay": 0,
+  "activateAreaOfEffectOverlay": 0,
+  "overrideSuitableOverlay": 0,
+  "minimumGamePhase": 20,
+  "buildResource": 60,
+  "resources": [
+    {
+      "type": {
+        "m_FileID": 0,
+        "m_PathID": -1419879698032766937
+      },
+      "value": 10
+    }
+  ],
+  "repairResource": {
+    "type": {
+      "m_FileID": 0,
+      "m_PathID": -1419879698032766937
+    },
+    "value": 5
+  },
+  "destructionResources": [
+    {
+      "type": {
+        "m_FileID": 0,
+        "m_PathID": -1419879698032766937
+      },
+      "value": 5
+    }
+  ],
+  "workSlotCount": 0,
+  "canBeRepaired": 0,
+  "roadID": "",
+  "level": 1,
+  "icon": {
+    "m_FileID": 2,
+    "m_PathID": -1422886336741378424
+  },
+  "bigIcon": {
+    "m_FileID": 2,
+    "m_PathID": -1422886336741378424
+  },
+  "floaterYOffset": 0.0,
+  "models": [
+    {
+      "visual": {
+        "m_FileID": 0,
+        "m_PathID": -1799417665071489557
+      },
+      "brushVisual": {
+        "m_FileID": 0,
+        "m_PathID": -2662432763237350161
+      },
+      "constructions": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -2662432763237350161
+        }
+      ],
+      "destructionModel": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ],
+  "visualizationData": {
+    "showDeposits": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "buildingPath": [],
+    "entryPath": [],
+    "loopWorkingPath": 0
+  },
+  "skipEntryPath": 1,
+  "properties": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 9028090287064904776
+    }
+  ],
+  "indestructible": 1,
+  "damageMultiplier": 0.0,
+  "combatDamageMultiplier": 0.25,
+  "isAffectedByPollution": 0,
+  "isDisabledByPollution": 1,
+  "isDisabledByCold": 0,
+  "canReceiveHeat": 1,
+  "pollutionShielding": 0.0,
+  "pollutionResistance": 0.0,
+  "createPollution": 0,
+  "alwaysCreatePollution": 0,
+  "pollutionCreationRate": 0.0,
+  "hideFunctionButtons": 0,
+  "hideHealthElement": 0,
+  "hideDescriptionElement": 1,
+  "hideEfficiencyElement": 1,
+  "hideHealthBar": 0,
+  "hideStatusBlock": 0,
+  "placement": {
+    "tiles": {
+      "x": 4,
+      "y": 4
+    },
+    "topReserved": 0,
+    "bottomReserved": 0,
+    "leftReserved": 0,
+    "rightReserved": 0,
+    "placementTiles": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "placementType": 0,
+  "noDrySoil": 0,
+  "onlyDrySoil": 0,
+  "showRadius": 1,
+  "showRadiusTileGrid": 0,
+  "useTileEfficiency": 0,
+  "cellEfficiencyMode": 0,
+  "useWorkAreaEfficiency": 1,
+  "canEditWorkarea": 1,
+  "workAreaType": 2,
+  "highlightDeposits": 0,
+  "highlightWaterConsumers": 0,
+  "highlightEnergyNodes": 0,
+  "canResizeWorkarea": 1,
+  "canEditStorage": 1,
+  "targetEfficiency": 0.9,
+  "isUnique": 0,
+  "isRemovable": 1,
+  "restrictedPlacement": 0,
+  "onlyDeepDeposits": 0,
+  "restrictedPlacementPosition": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "decalOverride": {
+    "m_FileID": 0,
+    "m_PathID": 5457656588112911626
+  },
+  "decalEnabled": 1,
+  "workAreaRadius": 14.0,
+  "randomRotation": 0,
+  "buildingDestroyedSoundEvent": "event:/SFX/Building/Destroyed/Small Building Destroyed",
+  "buildingRunningSoundEvent": "",
+  "buildingSelectedSoundEvent": "event:/SFX/Building/Selected/StockpileSelected",
+  "damageTargetTypes": 2,
+  "upgradeBuildingTemplate": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "upgradeType": 0,
+  "isUpgrade": 0,
+  "automaticUpgrade": 0
+}
