@@ -21,9 +21,7 @@ MonoBehaviour:
   disasterMultiplier: 1
   recipes:
   - key: Grp_Insects
-    input:
-    - type: {fileID: 11400000, guid: 32bfb2965bf2a19468ee391b88cb64d3, type: 2}
-      value: 1
+    input: []
     output:
     - type: {fileID: 11400000, guid: de0a8ffb28449064db9809d690b59d90, type: 2}
       value: 5
@@ -36,7 +34,7 @@ MonoBehaviour:
     - type: {fileID: 11400000, guid: 587f322ffea3267488d01f6726136e83, type: 2}
       value: 35
     productionDisplayStats:
-    - statType: 0
+    - statType: 1
       statValue: 0
   - key: Grp_Vegetables
     input: []
@@ -67,13 +65,7 @@ MonoBehaviour:
       value: 35
     productionDisplayStats: []
   - key: Grp_Processed
-    input:
-    - type: {fileID: 11400000, guid: 95a9d925afdfbeb4bb505fccf11165cc, type: 2}
-      value: 1
-    - type: {fileID: 11400000, guid: b79c60fb4bdbe3648846e1616c42f30e, type: 2}
-      value: 1
-    - type: {fileID: 11400000, guid: 7c6634870ae6e064688be274207eb4c5, type: 2}
-      value: 1
+    input: []
     output:
     - type: {fileID: 11400000, guid: 39aa4ac002871d04eba4b9301d113917, type: 2}
       value: 10

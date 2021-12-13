@@ -40,12 +40,13 @@ MonoBehaviour:
   destructionResources:
   - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
     value: 5
-  workSlotCount: 2
+  workSlotCount: 0
   canBeRepaired: 1
   roadID: 
   level: 1
   icon: {fileID: 21300000, guid: ae4f7eacb9a8a6340acdc3d91dcae136, type: 3}
   bigIcon: {fileID: 21300000, guid: ae4f7eacb9a8a6340acdc3d91dcae136, type: 3}
+  floaterYOffset: 0
   models:
   - visual: {fileID: 1676370284329800940, guid: 4c4500c940a9ec44bbfd15ddccbc47d4,
       type: 3}
@@ -289,3 +290,4 @@ MonoBehaviour:
   upgradeBuildingTemplate: {fileID: 0}
   upgradeType: 0
   isUpgrade: 0
+  automaticUpgrade: 0
