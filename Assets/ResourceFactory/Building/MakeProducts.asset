@@ -23,11 +23,7 @@ MonoBehaviour:
   disasterMultiplier: 1
   recipes:
   - key: aElectronics
-    input:
-    - type: {fileID: 11400000, guid: 2e8e235d47fbe3341b76055658951793, type: 2}
-      value: 1
-    - type: {fileID: 11400000, guid: 2520e983392b41c49a8d7a28bcee75f2, type: 2}
-      value: 1
+    input: []
     output:
     - type: {fileID: 11400000, guid: d825481e90142364693a2b92f981ecfb, type: 2}
       value: 3
@@ -39,95 +35,61 @@ MonoBehaviour:
       value: 2
     productionDisplayStats: []
   - key: aFuel
-    input:
-    - type: {fileID: 11400000, guid: d21211e22f2078f4a8479827fc4bf1f5, type: 2}
-      value: 2
+    input: []
     output:
     - type: {fileID: 11400000, guid: 904881d176e018c4ca8834076df8f8a6, type: 2}
       value: 6
     productionDisplayStats: []
   - key: Tier1_Tools
-    input:
-    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-      value: 4
+    input: []
     output:
     - type: {fileID: 11400000, guid: 2d568a404bcac4b43ac10fa71f14497e, type: 2}
       value: 5
     productionDisplayStats: []
   - key: Tier1_Clothes
-    input:
-    - type: {fileID: 11400000, guid: 39df25ab567e16d4da7cda67ff7218b1, type: 2}
-      value: 2
+    input: []
     output:
     - type: {fileID: 11400000, guid: 8535f54d4e0adaa448827ecba584c596, type: 2}
       value: 5
     productionDisplayStats: []
   - key: Tier2_Clothes
-    input:
-    - type: {fileID: 11400000, guid: 39df25ab567e16d4da7cda67ff7218b1, type: 2}
-      value: 5
+    input: []
     output:
     - type: {fileID: 11400000, guid: fabb320e9b2de264583df3ed2140e6e8, type: 2}
       value: 8
     productionDisplayStats: []
   - key: Tier3_Clothes
-    input:
-    - type: {fileID: 11400000, guid: 39df25ab567e16d4da7cda67ff7218b1, type: 2}
-      value: 8
-    - type: {fileID: 11400000, guid: d21211e22f2078f4a8479827fc4bf1f5, type: 2}
-      value: 2
+    input: []
     output:
     - type: {fileID: 11400000, guid: ac2132a7fe378a943a0d2ca99c552bb1, type: 2}
       value: 10
     productionDisplayStats: []
   - key: Tier1_Weapons
-    input:
-    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-      value: 5
-    - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
-      value: 3
+    input: []
     output:
     - type: {fileID: 11400000, guid: 2667347008532e0499bb4317fb4a770e, type: 2}
       value: 10
     productionDisplayStats: []
   - key: Tier2_Weapons
-    input:
-    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-      value: 10
-    - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
-      value: 6
+    input: []
     output:
     - type: {fileID: 11400000, guid: 5acc0753e7c74d94fb3d74bcbcc22549, type: 2}
       value: 8
     productionDisplayStats: []
   - key: Tier3_Weapons
-    input:
-    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-      value: 8
-    - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
-      value: 4
-    - type: {fileID: 11400000, guid: 2e8e235d47fbe3341b76055658951793, type: 2}
-      value: 1
+    input: []
     output:
     - type: {fileID: 11400000, guid: 1967a1e7b162e8b4eaa50acdfb250800, type: 2}
       value: 6
     productionDisplayStats: []
   - key: Tier2_Tools
-    input:
-    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-      value: 3
-    - type: {fileID: 11400000, guid: e13851ae2ec683a45802b5f3fc64d81c, type: 2}
-      value: 2
+    input: []
     output:
     - type: {fileID: 11400000, guid: b0cd63904c3684e4bbb23a2caf2c0cb8, type: 2}
       value: 5
     productionDisplayStats: []
   - key: Tier3_Tools
-    input:
-    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-      value: 4
-    - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
-      value: 1
+    input: []
     output:
     - type: {fileID: 11400000, guid: c139fffa3f1101a43a491e5f1f26a833, type: 2}
       value: 5
