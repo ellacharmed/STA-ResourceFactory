@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1677054141, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
-  m_Name: MagicWell
+  m_Name: MagicBarrel
   m_EditorClassIdentifier: 
   id: 1217211120
   basicBuilding: {fileID: 0}
   unlockCondition: 0
-  name: '#MAGIC_WELL'
-  buildingTechDescription: '#DESC_MAGIC_WELL'
+  assetBundleKey: 
+  name: '#MAGIC_BARREL'
   category: 6
   menuType: 0
   includedInStatistics: 1
@@ -24,34 +24,34 @@ MonoBehaviour:
   isCampsite: 0
   priority: 2
   enableProductionLimit: 0
+  workSlotCount: 0
   activateSuitableOverlay: 0
-  activateAreaOfEffectOverlay: 0
-  overrideSuitableOverlay: 4
+  activateAreaOfEffectOverlay: 1
+  overrideSuitableOverlay: 102
   minimumGamePhase: 20
-  buildResource: 10
+  buildDuration: 10
   resources:
   - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
     value: 1
   repairResource:
     type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
-    value: 0
+    value: 1
   destructionResources:
   - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
     value: 0
-  workSlotCount: 0
   canBeRepaired: 0
   roadID: 
   level: 1
-  icon: {fileID: 21300000, guid: 8f43944e0b9499a4a825725c5a96b246, type: 3}
-  bigIcon: {fileID: 21300000, guid: 8f43944e0b9499a4a825725c5a96b246, type: 3}
+  icon: {fileID: 21300000, guid: af747a8e4c70c4d469aefa48d6c0122a, type: 3}
+  bigIcon: {fileID: 21300000, guid: af747a8e4c70c4d469aefa48d6c0122a, type: 3}
   floaterYOffset: 0
   models:
-  - visual: {fileID: 7600099078192024880, guid: 8d5ff6bde81045641883fa6bff0f4b91,
+  - visual: {fileID: 5791878933201900209, guid: 2cd8c48f56533bf4288dd18329aae53b,
       type: 3}
-    brushVisual: {fileID: 8071096501419785070, guid: 491851d8195e02042b94f4cbe052ee10,
+    brushVisual: {fileID: 2637336892009838553, guid: a798984a52fd33d41b6e5282ff5cd273,
       type: 3}
     constructions:
-    - {fileID: 8071096501419785070, guid: 491851d8195e02042b94f4cbe052ee10, type: 3}
+    - {fileID: 2637336892009838553, guid: a798984a52fd33d41b6e5282ff5cd273, type: 3}
     destructionModel: {fileID: 0}
   visualizationData:
     showDeposits: {fileID: 0}
@@ -74,10 +74,10 @@ MonoBehaviour:
   alwaysCreatePollution: 0
   pollutionCreationRate: 0
   hideFunctionButtons: 0
-  hideHealthElement: 0
+  hideHealthElement: 1
   hideDescriptionElement: 1
-  hideEfficiencyElement: 1
-  hideHealthBar: 0
+  hideEfficiencyElement: 0
+  hideHealthBar: 1
   hideStatusBlock: 0
   placement:
     tiles:
@@ -88,21 +88,25 @@ MonoBehaviour:
     leftReserved: 0
     rightReserved: 0
     placementTiles: 00000000000000000000000000000000
-  placementType: 0
+  placementType: 3
   noDrySoil: 0
   onlyDrySoil: 0
   showRadius: 1
-  showRadiusTileGrid: 1
+  showRadiusTileGrid: 0
   useTileEfficiency: 1
   cellEfficiencyMode: 1
   placementWorkAreaLimit: 2
   useWorkAreaEfficiency: 1
-  canEditWorkarea: 0
+  canEditWorkArea: 0
+  canResizeWorkArea: 0
+  workAreaRadius: 50
+  workAreaOffset:
+    x: 0
+    y: 0
   workAreaType: 0
   highlightDeposits: 0
   highlightWaterConsumers: 1
   highlightEnergyNodes: 0
-  canResizeWorkarea: 0
   canEditStorage: 0
   targetEfficiency: 0.9
   isUnique: 0
@@ -112,10 +116,6 @@ MonoBehaviour:
   restrictedPlacementPosition: {x: 0, y: 0}
   decalOverride: {fileID: 0}
   decalEnabled: 1
-  workAreaRadius: 50
-  workAreaOffset:
-    x: 0
-    y: 0
   randomRotation: 0
   buildingDestroyedSoundEvent: event:/SFX/Building/Destroyed/Small Building Destroyed
   buildingRunningSoundEvent: 
@@ -126,3 +126,4 @@ MonoBehaviour:
   upgradeType: 0
   isUpgrade: 0
   automaticUpgrade: 0
+  buildingTechDescription: '#DESC_MAGIC_WELL'

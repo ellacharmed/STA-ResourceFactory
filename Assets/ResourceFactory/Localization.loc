@@ -1,4 +1,13 @@
 id,English,French,German,Spanish,Portuguese,Russian,Polish,Chinese
+#BASIC_FACTORY,"Basic Resource Factory","Ressources de base usine","Grundressourcenfabrik","Recursos básicos fábrica","Fábrica de recursos básicos.","Фабрика Базовых Ресурсов","Podstawowa fabryka zasobów","基础资源工厂"
+#DESC_BASIC_FACTORY,"The Basic Factory produces the 'low-end' resources using the Recipe feature.",French,German,Spanish,Portuguese,Russian,Polish,Chinese
+#RECIPE_aPlank,"Plank",,,,,,,
+#RECIPE_aConcrete,"Concrete",,,,,,,
+#RECIPE_aPlastic,"Plastic",,,,,,,
+#RECIPE_aMetal,"Metal",,,,,,,
+#RECIPE_aFiber,"Fiber",,,,,,,
+#RECIPE_aScrap,"Junk",,,,,,,
+#RECIPE_aOil,"Oil",,,,,,,
 
 #RECIPE_aPlank_DESC,"Clone Plank",,,,,,,
 #RECIPE_aConcrete_DESC,"Clone Concrete",,,,,,,
@@ -34,8 +43,14 @@ id,English,French,German,Spanish,Portuguese,Russian,Polish,Chinese
 #RECIPE_Tier2_Weapons_DESC,"Produces Shotguns",,,,,,,
 #RECIPE_Tier3_Weapons_DESC,"Produces Automatic Rifles",,,,,,,
 
-#MEGA_STOCKPILE,"MegaStockpile",,,,,,,
+#MEGA_STOCKPILE,"Mega Stockpile",,,,,,,
 #DESC_MEGA_STOCKPILE,"Has capacity of 5000 versus the default value of 1500",,,,,,,
+#MAGIC_CUBE,"Magic Cube of Power",,,,,,,
+#DESC_MAGIC_CUBE,"Global Energy producer",,,,,,,
+#MAGIC_BARREL,"Magic Barrel",,,,,,,
+#DESC_MAGIC_BARREL,"Global Water producer",,,,,,,
+
+
 #CRAFTS_FACTORY,"CRAFTS FACTORY",,,,,,,
 #DESC_CRAFTS_FACTORY,"Worker: Craftsman. Creates Firewood and Clothings",,,,,,,
 #RECIPE_aFirewood,"Firewood",,,,,,,
@@ -53,27 +68,16 @@ id,English,French,German,Spanish,Portuguese,Russian,Polish,Chinese
 #RECIPE_Tier2_Weapons,"Shotgun",,,,,,,
 #RECIPE_Tier3_Weapons,"Automatic Rifle",,,,,,,
 
-#MAGIC_CUBE,"MAGIC_CUBE",,,,,,,
-#DESC_MAGIC_CUBE,"Global Energy producer",,,,,,,
-#MAGIC_WELL,"MAGIC_WELL",,,,,,,
-#DESC_MAGIC_WELL,"Global Water producer",,,,,,,
-
-#BASIC_FACTORY,"Basic Resource Factory","Ressources de base usine","Grundressourcenfabrik","Recursos básicos fábrica","Fábrica de recursos básicos.","Фабрика Базовых Ресурсов","Podstawowa fabryka zasobów","基础资源工厂"
-#DESC_BASIC_FACTORY,"The Basic Factory produces the 'low-end' resources using the Recipe feature.",French,German,Spanish,Portuguese,"Производит базовые ресурсы используя чертежи.",Polish,Chinese
-#RECIPE_aPlank,"Plank",,,,,,,
-#RECIPE_aConcrete,"Concrete",,,,,,,
-#RECIPE_aPlastic,"Plastic",,,,,,,
-#RECIPE_aMetal,"Metal",,,,,,,
-#RECIPE_aFiber,"Fiber",,,,,,,
-#RECIPE_aScrap,"Junk",,,,,,,
-#RECIPE_aOil,"Oil",,,,,,,
-
-#FOOD_FACTORY,Food Factory,,,,,,"Фабрика Еды",,
-#DESC_FOOD_FACTORY,"The FOOD Factory produces food ingredients and meals, of course",,,,,"Фабрика Еды конечно же производит еду",,
 
 
-#PHARMA_FACTORY,Pharma Factory,,,,,,Фармацевтическая Фабрика,,
-#DESC_PHARMA_FACTORY,"The Pharmaceuticals lab can assist in keeping your colonists healthy by producting medicine, antibiotic pills, iodine tablets and the main ingredient of medicinal herbs for the manufacture of all of the medicine",,,,,"Фармацевтическая Лаборатория",,
+
+
+#FOOD_FACTORY,Food Factory,,,,,,,,
+#DESC_FOOD_FACTORY,"The FOOD Factory produces food ingredients and meals, of course",,,,,,,
+
+
+#PHARMA_FACTORY,Pharma Factory,,,,,,,,
+#DESC_PHARMA_FACTORY,"The Pharmaceuticals lab can assist in keeping your colonists healthy by producting medicine, antibiotic pills, iodine tablets and the main ingredient of medicinal herbs for the manufacture of all of the medicine",,,,,,,
 #RECIPE_aMedicine,"Pharmaceuticals group",,,,,,,
 #RECIPE_aMedicine_DESC,"Clone Medicine",,,,,,,
 #RECIPE_aAntibiotics,"Antibiotics",,,,,,,
@@ -83,8 +87,8 @@ id,English,French,German,Spanish,Portuguese,Russian,Polish,Chinese
 #RECIPE_aHerbals,"Herbals",,,,,,,
 #RECIPE_aHerbals_DESC,"Clone Herbals.",,,,,,,
 
-#PRODUCT_FACTORY,Manufacturing plant,,,,,,Производственный Цех,,
-#DESC_PRODUCT_FACTORY,"The manufacturing plant produces the 'high-end' items. Keep these well stock as they have high trade value",,,,,"Производственный Цех для всего остального",,
+#PRODUCT_FACTORY,Manufacturing plant,,,,,,,,
+#DESC_PRODUCT_FACTORY,"The manufacturing plant produces the 'high-end' items. Keep these well stock as they have high trade value",,,,,,,
 #RECIPE_aRareMetal,"Rare Metals",,,,,,,
 #RECIPE_aComponent,"Component",,,,,,,
 #RECIPE_aElectronics,"Electronics",,,,,,,
