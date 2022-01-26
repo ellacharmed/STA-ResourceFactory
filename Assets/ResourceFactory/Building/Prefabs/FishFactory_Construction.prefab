@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 847961884339969914}
   - component: {fileID: 6458461428491233119}
   m_Layer: 0
-  m_Name: Fishfactory_Construction
+  m_Name: FishFactory_Construction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 878106364, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
+  m_Name: MakeMechanical
+  m_EditorClassIdentifier: 
+  professionType: 14
+  input:
+  - type: {fileID: 11400000, guid: 39df25ab567e16d4da7cda67ff7218b1, type: 2}
+    value: 1
+  - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
+    value: 1
+  - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+    value: 1
+  - type: {fileID: 11400000, guid: d21211e22f2078f4a8479827fc4bf1f5, type: 2}
+    value: 1
+  output:
+  - type: {fileID: 11400000, guid: 2667347008532e0499bb4317fb4a770e, type: 2}
+    value: 1
+  - type: {fileID: 11400000, guid: 5acc0753e7c74d94fb3d74bcbcc22549, type: 2}
+    value: 1
+  - type: {fileID: 11400000, guid: 1967a1e7b162e8b4eaa50acdfb250800, type: 2}
+    value: 1
+  - type: {fileID: 11400000, guid: 2d568a404bcac4b43ac10fa71f14497e, type: 2}
+    value: 1
+  - type: {fileID: 11400000, guid: b0cd63904c3684e4bbb23a2caf2c0cb8, type: 2}
+    value: 1
+  - type: {fileID: 11400000, guid: c139fffa3f1101a43a491e5f1f26a833, type: 2}
+    value: 1
+  - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
+    value: 1
+  productionTime: 80
+  disasterMultiplier: 1
+  recipes:
+  - key: aParts
+    input:
+    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+      value: 2
+    - type: {fileID: 11400000, guid: e13851ae2ec683a45802b5f3fc64d81c, type: 2}
+      value: 2
+    output:
+    - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
+      value: 5
+    productionDisplayStats: []
+  - key: Tier1_Tools
+    input: []
+    output:
+    - type: {fileID: 11400000, guid: 2d568a404bcac4b43ac10fa71f14497e, type: 2}
+      value: 2
+    productionDisplayStats: []
+  - key: Tier2_Tools
+    input:
+    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+      value: 2
+    output:
+    - type: {fileID: 11400000, guid: b0cd63904c3684e4bbb23a2caf2c0cb8, type: 2}
+      value: 6
+    productionDisplayStats: []
+  - key: Tier3_Tools
+    input: []
+    output:
+    - type: {fileID: 11400000, guid: c139fffa3f1101a43a491e5f1f26a833, type: 2}
+      value: 5
+    productionDisplayStats: []
+  - key: Tier1_Weapons
+    input: []
+    output:
+    - type: {fileID: 11400000, guid: 2667347008532e0499bb4317fb4a770e, type: 2}
+      value: 5
+    productionDisplayStats: []
+  - key: Tier2_Weapons
+    input: []
+    output:
+    - type: {fileID: 11400000, guid: 5acc0753e7c74d94fb3d74bcbcc22549, type: 2}
+      value: 8
+    productionDisplayStats: []
+  - key: Tier3_Weapons
+    input: []
+    output:
+    - type: {fileID: 11400000, guid: 1967a1e7b162e8b4eaa50acdfb250800, type: 2}
+      value: 10
+    productionDisplayStats: []
+  requireDeposits: 0

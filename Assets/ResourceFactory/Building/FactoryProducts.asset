@@ -27,7 +27,7 @@ MonoBehaviour:
   activateSuitableOverlay: 0
   activateAreaOfEffectOverlay: 0
   overrideSuitableOverlay: 0
-  minimumGamePhase: 20
+  minimumGamePhase: 40
   buildResource: 0
   resources:
   - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
@@ -40,12 +40,13 @@ MonoBehaviour:
   destructionResources:
   - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
     value: 5
-  workSlotCount: 2
+  workSlotCount: 3
   canBeRepaired: 1
   roadID: 
   level: 1
   icon: {fileID: 21300000, guid: ae4f7eacb9a8a6340acdc3d91dcae136, type: 3}
   bigIcon: {fileID: 21300000, guid: ae4f7eacb9a8a6340acdc3d91dcae136, type: 3}
+  floaterYOffset: 0
   models:
   - visual: {fileID: 1676370284329800940, guid: 4c4500c940a9ec44bbfd15ddccbc47d4,
       type: 3}
@@ -264,6 +265,7 @@ MonoBehaviour:
   showRadiusTileGrid: 0
   useTileEfficiency: 0
   cellEfficiencyMode: 0
+  placementWorkAreaLimit: 0
   useWorkAreaEfficiency: 0
   canEditWorkarea: 0
   workAreaType: 0
@@ -281,11 +283,16 @@ MonoBehaviour:
   decalOverride: {fileID: 0}
   decalEnabled: 0
   workAreaRadius: 7
+  workAreaOffset:
+    x: 0
+    y: 0
   randomRotation: 0
   buildingDestroyedSoundEvent: 
   buildingRunningSoundEvent: 
   buildingSelectedSoundEvent: 
   damageTargetTypes: 0
+  baseBuildingTemplate: {fileID: 0}
   upgradeBuildingTemplate: {fileID: 0}
   upgradeType: 0
   isUpgrade: 0
+  automaticUpgrade: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 878106364, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
   m_Name: MakePharma
   m_EditorClassIdentifier: 
-  professionType: 2
+  professionType: 7
   input:
   - type: {fileID: 11400000, guid: 80f54a687b5a38a41b18f19de59ee24f, type: 2}
     value: 0
@@ -25,19 +25,23 @@ MonoBehaviour:
     output:
     - type: {fileID: 11400000, guid: 3f7cca8fa27e3aa45917223fe8c3c9a6, type: 2}
       value: 25
+    productionDisplayStats: []
   - key: aAntibiotics
     input: []
     output:
     - type: {fileID: 11400000, guid: 1be3ca98014cde6449a533e1701f4009, type: 2}
       value: 25
+    productionDisplayStats: []
   - key: aIodine
     input: []
     output:
     - type: {fileID: 11400000, guid: 617692f1335d23644b2d7389f543ccf7, type: 2}
       value: 25
+    productionDisplayStats: []
   - key: aHerbals
     input: []
     output:
     - type: {fileID: 11400000, guid: 344a639c71bd5074f9ab901d147e42c7, type: 2}
       value: 25
+    productionDisplayStats: []
   requireDeposits: 0

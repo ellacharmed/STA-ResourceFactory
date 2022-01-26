@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1677054141, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
+  m_Name: MagicCube
+  m_EditorClassIdentifier: 
+  id: 1216211120
+  basicBuilding: {fileID: 0}
+  unlockCondition: 0
+  name: '#MAGIC_CUBE'
+  buildingTechDescription: '#DESC_MAGIC_CUBE'
+  category: 7
+  menuType: 0
+  includedInStatistics: 1
+  showDetailsInTechInfo: 1
+  isCampsite: 0
+  priority: 2
+  enableProductionLimit: 0
+  activateSuitableOverlay: 0
+  activateAreaOfEffectOverlay: 0
+  overrideSuitableOverlay: 5
+  minimumGamePhase: 20
+  buildResource: 10
+  resources:
+  - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
+    value: 1
+  repairResource:
+    type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
+    value: 1
+  destructionResources:
+  - type: {fileID: 0}
+    value: 0
+  workSlotCount: 0
+  canBeRepaired: 0
+  roadID: 
+  level: 1
+  icon: {fileID: 21300000, guid: 72806b902f8871a4e8bd46d8a1308071, type: 3}
+  bigIcon: {fileID: 21300000, guid: 72806b902f8871a4e8bd46d8a1308071, type: 3}
+  floaterYOffset: 0
+  models:
+  - visual: {fileID: 632028443902497307, guid: 31e196a942243e749a5f99cdef6110b5, type: 3}
+    brushVisual: {fileID: 8879078402632288002, guid: 2f0f335874f336b4cb79d657449a222c,
+      type: 3}
+    constructions:
+    - {fileID: 8879078402632288002, guid: 2f0f335874f336b4cb79d657449a222c, type: 3}
+    destructionModel: {fileID: 0}
+  visualizationData:
+    showDeposits: {fileID: 0}
+    buildingPath: []
+    entryPath: []
+    loopWorkingPath: 0
+  skipEntryPath: 0
+  properties:
+  - {fileID: 11400000, guid: 77c65940a6d587f4bb51215d4195dce7, type: 2}
+  - {fileID: 11400000, guid: 376cd2e1ce724354cbbf2b8357145514, type: 2}
+  indestructible: 1
+  damageMultiplier: 0
+  combatDamageMultiplier: 0.25
+  isAffectedByPollution: 0
+  isDisabledByPollution: 0
+  isDisabledByCold: 0
+  canReceiveHeat: 1
+  pollutionShielding: 0
+  pollutionResistance: 0
+  createPollution: 0
+  alwaysCreatePollution: 0
+  pollutionCreationRate: 0
+  hideFunctionButtons: 0
+  hideHealthElement: 0
+  hideDescriptionElement: 1
+  hideEfficiencyElement: 1
+  hideHealthBar: 0
+  hideStatusBlock: 0
+  placement:
+    tiles:
+      x: 2
+      y: 2
+    topReserved: 0
+    bottomReserved: 0
+    leftReserved: 0
+    rightReserved: 0
+    placementTiles: 00000000000000000000000000000000
+  placementType: 0
+  noDrySoil: 0
+  onlyDrySoil: 0
+  showRadius: 1
+  showRadiusTileGrid: 1
+  useTileEfficiency: 0
+  cellEfficiencyMode: 0
+  placementWorkAreaLimit: 0
+  useWorkAreaEfficiency: 0
+  canEditWorkarea: 0
+  workAreaType: 0
+  highlightDeposits: 0
+  highlightWaterConsumers: 0
+  highlightEnergyNodes: 1
+  canResizeWorkarea: 0
+  canEditStorage: 0
+  targetEfficiency: 0.9
+  isUnique: 0
+  isRemovable: 1
+  restrictedPlacement: 0
+  onlyDeepDeposits: 0
+  restrictedPlacementPosition: {x: 0, y: 0}
+  decalOverride: {fileID: 0}
+  decalEnabled: 1
+  workAreaRadius: 50
+  workAreaOffset:
+    x: 0
+    y: 0
+  randomRotation: 0
+  buildingDestroyedSoundEvent: event:/SFX/Building/Destroyed/Small Building Destroyed
+  buildingRunningSoundEvent: 
+  buildingSelectedSoundEvent: event:/SFX/Building/Selected/StockpileSelected
+  damageTargetTypes: 0
+  baseBuildingTemplate: {fileID: 0}
+  upgradeBuildingTemplate: {fileID: 0}
+  upgradeType: 0
+  isUpgrade: 0
+  automaticUpgrade: 0

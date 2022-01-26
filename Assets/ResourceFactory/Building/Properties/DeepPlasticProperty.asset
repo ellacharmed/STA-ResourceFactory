@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708513634, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
+  m_Name: DeepPlasticProperty
+  m_EditorClassIdentifier: 
+  input:
+    type: {fileID: 11400000, guid: dd00d6b3572ab7c4f9bc41c5f0b7222f, type: 2}
+    value: -1
+  output:
+  - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
+    value: 15
+  processingTime: 3
+  isHarvestAffectedByEfficiency: 1
+  minimumWorkingEfficiency: 0.615
+  profession: 9
+  consumeDeposits: 1
