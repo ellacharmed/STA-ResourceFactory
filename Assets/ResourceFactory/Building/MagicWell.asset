@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1677054141, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
-  m_Name: MegaStockpile
+  m_Name: MagicWell
   m_EditorClassIdentifier: 
-  id: 1215211120
+  id: 1217211120
   basicBuilding: {fileID: 0}
   unlockCondition: 0
-  name: '#MEGA_STOCKPILE'
-  buildingTechDescription: '#DESC_MEGA_STOCKPILE'
-  category: 2
+  name: '#MAGIC_WELL'
+  buildingTechDescription: '#DESC_MAGIC_WELL'
+  category: 6
   menuType: 0
   includedInStatistics: 1
   showDetailsInTechInfo: 1
@@ -26,31 +26,32 @@ MonoBehaviour:
   enableProductionLimit: 0
   activateSuitableOverlay: 0
   activateAreaOfEffectOverlay: 0
-  overrideSuitableOverlay: 0
+  overrideSuitableOverlay: 4
   minimumGamePhase: 20
   buildResource: 10
   resources:
   - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
-    value: 10
+    value: 1
   repairResource:
     type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
-    value: 2
+    value: 0
   destructionResources:
   - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
-    value: 5
+    value: 0
   workSlotCount: 0
   canBeRepaired: 0
   roadID: 
   level: 1
-  icon: {fileID: 21300000, guid: 2e76cce9fab7d55458e4a857f6cd218a, type: 3}
-  bigIcon: {fileID: 21300000, guid: 2e76cce9fab7d55458e4a857f6cd218a, type: 3}
+  icon: {fileID: 21300000, guid: 8f43944e0b9499a4a825725c5a96b246, type: 3}
+  bigIcon: {fileID: 21300000, guid: 8f43944e0b9499a4a825725c5a96b246, type: 3}
   floaterYOffset: 0
   models:
-  - visual: {fileID: 1749364535203704, guid: c466e8376333d8240aefff8f66a3b72c, type: 3}
-    brushVisual: {fileID: 1405816757099410, guid: 56cf2162a35faf44da9d9f30031cd8c2,
+  - visual: {fileID: 7600099078192024880, guid: 8d5ff6bde81045641883fa6bff0f4b91,
+      type: 3}
+    brushVisual: {fileID: 8071096501419785070, guid: 491851d8195e02042b94f4cbe052ee10,
       type: 3}
     constructions:
-    - {fileID: 1405816757099410, guid: 56cf2162a35faf44da9d9f30031cd8c2, type: 3}
+    - {fileID: 8071096501419785070, guid: 491851d8195e02042b94f4cbe052ee10, type: 3}
     destructionModel: {fileID: 0}
   visualizationData:
     showDeposits: {fileID: 0}
@@ -59,12 +60,12 @@ MonoBehaviour:
     loopWorkingPath: 0
   skipEntryPath: 1
   properties:
-  - {fileID: 11400000, guid: 158b96c1b1742e34b80f9de67d5b8bf0, type: 2}
+  - {fileID: 11400000, guid: 01edd48411a44954d94df8e2fb78d583, type: 2}
   indestructible: 1
   damageMultiplier: 0
   combatDamageMultiplier: 0.25
   isAffectedByPollution: 0
-  isDisabledByPollution: 1
+  isDisabledByPollution: 0
   isDisabledByCold: 0
   canReceiveHeat: 1
   pollutionShielding: 0
@@ -80,29 +81,29 @@ MonoBehaviour:
   hideStatusBlock: 0
   placement:
     tiles:
-      x: 4
-      y: 4
+      x: 2
+      y: 2
     topReserved: 0
     bottomReserved: 0
     leftReserved: 0
     rightReserved: 0
-    placementTiles: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    placementTiles: 00000000000000000000000000000000
   placementType: 0
   noDrySoil: 0
   onlyDrySoil: 0
   showRadius: 1
-  showRadiusTileGrid: 0
-  useTileEfficiency: 0
-  cellEfficiencyMode: 0
-  placementWorkAreaLimit: 0
+  showRadiusTileGrid: 1
+  useTileEfficiency: 1
+  cellEfficiencyMode: 1
+  placementWorkAreaLimit: 2
   useWorkAreaEfficiency: 1
-  canEditWorkarea: 1
-  workAreaType: 2
-  highlightDeposits: 1
-  highlightWaterConsumers: 0
+  canEditWorkarea: 0
+  workAreaType: 0
+  highlightDeposits: 0
+  highlightWaterConsumers: 1
   highlightEnergyNodes: 0
-  canResizeWorkarea: 1
-  canEditStorage: 1
+  canResizeWorkarea: 0
+  canEditStorage: 0
   targetEfficiency: 0.9
   isUnique: 0
   isRemovable: 1
@@ -111,7 +112,7 @@ MonoBehaviour:
   restrictedPlacementPosition: {x: 0, y: 0}
   decalOverride: {fileID: 0}
   decalEnabled: 1
-  workAreaRadius: 14
+  workAreaRadius: 50
   workAreaOffset:
     x: 0
     y: 0
@@ -119,7 +120,7 @@ MonoBehaviour:
   buildingDestroyedSoundEvent: event:/SFX/Building/Destroyed/Small Building Destroyed
   buildingRunningSoundEvent: 
   buildingSelectedSoundEvent: event:/SFX/Building/Selected/StockpileSelected
-  damageTargetTypes: 2
+  damageTargetTypes: 0
   baseBuildingTemplate: {fileID: 0}
   upgradeBuildingTemplate: {fileID: 0}
   upgradeType: 0

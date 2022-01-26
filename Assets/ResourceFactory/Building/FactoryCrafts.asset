@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1677054141, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
-  m_Name: FactoryFood
+  m_Name: FactoryCrafts
   m_EditorClassIdentifier: 
-  id: 1212210313
+  id: 1211211228
   basicBuilding: {fileID: 0}
   unlockCondition: 0
-  name: '#FOOD_FACTORY'
-  buildingTechDescription: '#DESC_FOOD_FACTORY'
-  category: 3
+  name: '#CRAFTS_FACTORY'
+  buildingTechDescription: '#DESC_CRAFTS_FACTORY'
+  category: 4
   menuType: 0
   includedInStatistics: 1
   showDetailsInTechInfo: 1
@@ -27,8 +27,8 @@ MonoBehaviour:
   activateSuitableOverlay: 0
   activateAreaOfEffectOverlay: 0
   overrideSuitableOverlay: 0
-  minimumGamePhase: 20
-  buildResource: 0
+  minimumGamePhase: 40
+  buildResource: 120
   resources:
   - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
     value: 4
@@ -230,7 +230,7 @@ MonoBehaviour:
     loopWorkingPath: 0
   skipEntryPath: 0
   properties:
-  - {fileID: 11400000, guid: 4d9ac6ad72f022a4fa3ae5cec72f2511, type: 2}
+  - {fileID: 11400000, guid: 4951ba73408e96c4fafc44d1d5ee14ab, type: 2}
   indestructible: 1
   damageMultiplier: 1
   combatDamageMultiplier: 0.25
