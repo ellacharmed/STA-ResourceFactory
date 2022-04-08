@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5653527411845926322}
   - component: {fileID: 3724254781136415338}
   m_Layer: 0
-  m_Name: MagicCube_C
+  m_Name: MagicCubeLvl0_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94,8 +94,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.89678764, z: 1.2251903}
-  m_Center: {x: 0, y: 0.40815747, z: 0.009382904}
+  m_Size: {x: 1, y: 0.8103132, z: 1.2251903}
+  m_Center: {x: 0, y: 0.36492026, z: 0.009382904}
 --- !u!1001 &5383629826637017849
 PrefabInstance:
   m_ObjectHideFlags: 0

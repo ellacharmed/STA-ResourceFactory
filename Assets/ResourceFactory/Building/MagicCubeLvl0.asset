@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1677054141, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
-  m_Name: MagicBarrel
+  m_Name: MagicCubeLvl0
   m_EditorClassIdentifier: 
-  id: 1217211120
+  id: 1216211120
   basicBuilding: {fileID: 0}
   unlockCondition: 0
   assetBundleKey: 
-  name: '#MAGIC_BARREL'
-  category: 6
+  name: '#MAGIC_CUBE_PROD'
+  category: 7
   menuType: 0
   includedInStatistics: 1
   showDetailsInTechInfo: 1
@@ -27,31 +27,31 @@ MonoBehaviour:
   workSlotCount: 0
   activateSuitableOverlay: 0
   activateAreaOfEffectOverlay: 1
-  overrideSuitableOverlay: 4
-  minimumGamePhase: 10
+  overrideSuitableOverlay: 0
+  minimumGamePhase: 40
   buildDuration: 10
   resources:
   - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
-    value: 1
+    value: 5
   repairResource:
     type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
-    value: 1
+    value: 2
   destructionResources:
   - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
-    value: 0
+    value: 5
   canBeRepaired: 0
   roadID: 
   level: 1
-  icon: {fileID: 21300000, guid: af747a8e4c70c4d469aefa48d6c0122a, type: 3}
-  bigIcon: {fileID: 21300000, guid: af747a8e4c70c4d469aefa48d6c0122a, type: 3}
+  icon: {fileID: 21300000, guid: 72806b902f8871a4e8bd46d8a1308071, type: 3}
+  bigIcon: {fileID: 21300000, guid: 72806b902f8871a4e8bd46d8a1308071, type: 3}
   floaterYOffset: 0
   models:
-  - visual: {fileID: 5791878933201900209, guid: 2cd8c48f56533bf4288dd18329aae53b,
+  - visual: {fileID: 2924657216550194392, guid: ddc0922f6bd3e904fbcf8f8004b99ca8,
       type: 3}
-    brushVisual: {fileID: 2637336892009838553, guid: a798984a52fd33d41b6e5282ff5cd273,
+    brushVisual: {fileID: 1541880204259387263, guid: 7c3929276b39da3429ec65b12e434007,
       type: 3}
     constructions:
-    - {fileID: 2637336892009838553, guid: a798984a52fd33d41b6e5282ff5cd273, type: 3}
+    - {fileID: 1541880204259387263, guid: 7c3929276b39da3429ec65b12e434007, type: 3}
     destructionModel: {fileID: 0}
   visualizationData:
     showDeposits: {fileID: 0}
@@ -60,7 +60,8 @@ MonoBehaviour:
     loopWorkingPath: 0
   skipEntryPath: 1
   properties:
-  - {fileID: 11400000, guid: ab5c214fd4e7904418ffdc36e2e3c2bf, type: 2}
+  - {fileID: 11400000, guid: 77c65940a6d587f4bb51215d4195dce7, type: 2}
+  - {fileID: 11400000, guid: 376cd2e1ce724354cbbf2b8357145514, type: 2}
   indestructible: 1
   damageMultiplier: 0
   combatDamageMultiplier: 0.25
@@ -74,10 +75,10 @@ MonoBehaviour:
   alwaysCreatePollution: 0
   pollutionCreationRate: 0
   hideFunctionButtons: 0
-  hideHealthElement: 1
+  hideHealthElement: 0
   hideCapacityElement: 0
   hideDescriptionElement: 1
-  hideEfficiencyElement: 0
+  hideEfficiencyElement: 1
   hideHealthBar: 1
   hideStatusBlock: 0
   hideResourceRequestElement: 0
@@ -90,12 +91,12 @@ MonoBehaviour:
     leftReserved: 0
     rightReserved: 0
     placementTiles: 00000000000000000000000000000000
-  placementType: 1
+  placementType: 0
   noDrySoil: 0
   onlyDrySoil: 0
   showRadius: 1
   showRadiusTileGrid: 0
-  useTileEfficiency: 1
+  useTileEfficiency: 0
   cellEfficiencyMode: 0
   placementWorkAreaLimit: 0
   useWorkAreaEfficiency: 1
@@ -107,8 +108,8 @@ MonoBehaviour:
     y: 0
   workAreaType: 0
   highlightDeposits: 0
-  highlightWaterConsumers: 1
-  highlightEnergyNodes: 0
+  highlightWaterConsumers: 0
+  highlightEnergyNodes: 1
   canEditStorage: 0
   targetEfficiency: 0.9
   isUnique: 0
@@ -123,10 +124,10 @@ MonoBehaviour:
   buildingDestroyedSoundEvent: event:/SFX/Building/Destroyed/Small Building Destroyed
   buildingRunningSoundEvent: 
   buildingSelectedSoundEvent: event:/SFX/Building/Selected/StockpileSelected
-  damageTargetTypes: 0
+  damageTargetTypes: 8
   baseBuildingTemplate: {fileID: 0}
   upgradeBuildingTemplate: {fileID: 0}
   upgradeType: 0
   isUpgrade: 0
   automaticUpgrade: 0
-  buildingTechDescription: '#DESC_MAGIC_WELL'
+  buildingTechDescription: '#DESC_MAGIC_CUBE'

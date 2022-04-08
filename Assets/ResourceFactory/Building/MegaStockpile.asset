@@ -15,8 +15,8 @@ MonoBehaviour:
   id: 1215211120
   basicBuilding: {fileID: 0}
   unlockCondition: 0
+  assetBundleKey: 
   name: '#MEGA_STOCKPILE'
-  buildingTechDescription: '#DESC_MEGA_STOCKPILE'
   category: 2
   menuType: 0
   includedInStatistics: 1
@@ -24,11 +24,12 @@ MonoBehaviour:
   isCampsite: 0
   priority: 2
   enableProductionLimit: 0
+  workSlotCount: 0
   activateSuitableOverlay: 0
   activateAreaOfEffectOverlay: 0
   overrideSuitableOverlay: 0
-  minimumGamePhase: 20
-  buildResource: 10
+  minimumGamePhase: 10
+  buildDuration: 10
   resources:
   - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
     value: 10
@@ -38,7 +39,6 @@ MonoBehaviour:
   destructionResources:
   - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
     value: 5
-  workSlotCount: 0
   canBeRepaired: 0
   roadID: 
   level: 1
@@ -74,10 +74,12 @@ MonoBehaviour:
   pollutionCreationRate: 0
   hideFunctionButtons: 0
   hideHealthElement: 0
+  hideCapacityElement: 0
   hideDescriptionElement: 1
   hideEfficiencyElement: 1
   hideHealthBar: 0
   hideStatusBlock: 0
+  hideResourceRequestElement: 0
   placement:
     tiles:
       x: 4
@@ -96,12 +98,16 @@ MonoBehaviour:
   cellEfficiencyMode: 0
   placementWorkAreaLimit: 0
   useWorkAreaEfficiency: 1
-  canEditWorkarea: 1
+  canEditWorkArea: 1
+  canResizeWorkArea: 1
+  workAreaRadius: 14
+  workAreaOffset:
+    x: 0
+    y: 0
   workAreaType: 2
   highlightDeposits: 1
   highlightWaterConsumers: 0
   highlightEnergyNodes: 0
-  canResizeWorkarea: 1
   canEditStorage: 1
   targetEfficiency: 0.9
   isUnique: 0
@@ -111,10 +117,7 @@ MonoBehaviour:
   restrictedPlacementPosition: {x: 0, y: 0}
   decalOverride: {fileID: 0}
   decalEnabled: 1
-  workAreaRadius: 14
-  workAreaOffset:
-    x: 0
-    y: 0
+  disableForwardDecals: 0
   randomRotation: 0
   buildingDestroyedSoundEvent: event:/SFX/Building/Destroyed/Small Building Destroyed
   buildingRunningSoundEvent: 
@@ -125,3 +128,4 @@ MonoBehaviour:
   upgradeType: 0
   isUpgrade: 0
   automaticUpgrade: 0
+  buildingTechDescription: '#DESC_MEGA_STOCKPILE'

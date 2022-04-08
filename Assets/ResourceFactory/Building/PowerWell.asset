@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1677054141, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
-  m_Name: MagicBarrel
+  m_Name: PowerWell
   m_EditorClassIdentifier: 
-  id: 1217211120
+  id: 1219220330
   basicBuilding: {fileID: 0}
   unlockCondition: 0
   assetBundleKey: 
-  name: '#MAGIC_BARREL'
+  name: '#POWER_WELL'
   category: 6
   menuType: 0
   includedInStatistics: 1
@@ -27,7 +27,7 @@ MonoBehaviour:
   workSlotCount: 0
   activateSuitableOverlay: 0
   activateAreaOfEffectOverlay: 1
-  overrideSuitableOverlay: 4
+  overrideSuitableOverlay: 102
   minimumGamePhase: 10
   buildDuration: 10
   resources:
@@ -42,16 +42,16 @@ MonoBehaviour:
   canBeRepaired: 0
   roadID: 
   level: 1
-  icon: {fileID: 21300000, guid: af747a8e4c70c4d469aefa48d6c0122a, type: 3}
-  bigIcon: {fileID: 21300000, guid: af747a8e4c70c4d469aefa48d6c0122a, type: 3}
+  icon: {fileID: 21300000, guid: 8f43944e0b9499a4a825725c5a96b246, type: 3}
+  bigIcon: {fileID: 21300000, guid: 8f43944e0b9499a4a825725c5a96b246, type: 3}
   floaterYOffset: 0
   models:
-  - visual: {fileID: 5791878933201900209, guid: 2cd8c48f56533bf4288dd18329aae53b,
+  - visual: {fileID: 1628804041956189661, guid: 7b79b0a547761234fa79a7a5af0efb11,
       type: 3}
-    brushVisual: {fileID: 2637336892009838553, guid: a798984a52fd33d41b6e5282ff5cd273,
+    brushVisual: {fileID: 1628804041956189661, guid: 7b79b0a547761234fa79a7a5af0efb11,
       type: 3}
     constructions:
-    - {fileID: 2637336892009838553, guid: a798984a52fd33d41b6e5282ff5cd273, type: 3}
+    - {fileID: 1628804041956189661, guid: 7b79b0a547761234fa79a7a5af0efb11, type: 3}
     destructionModel: {fileID: 0}
   visualizationData:
     showDeposits: {fileID: 0}
@@ -60,7 +60,8 @@ MonoBehaviour:
     loopWorkingPath: 0
   skipEntryPath: 1
   properties:
-  - {fileID: 11400000, guid: ab5c214fd4e7904418ffdc36e2e3c2bf, type: 2}
+  - {fileID: 11400000, guid: 01edd48411a44954d94df8e2fb78d583, type: 2}
+  - {fileID: 11400000, guid: 3e5939e08dee8ed44a543a87c638b24b, type: 2}
   indestructible: 1
   damageMultiplier: 0
   combatDamageMultiplier: 0.25
@@ -90,14 +91,14 @@ MonoBehaviour:
     leftReserved: 0
     rightReserved: 0
     placementTiles: 00000000000000000000000000000000
-  placementType: 1
-  noDrySoil: 0
+  placementType: 3
+  noDrySoil: 1
   onlyDrySoil: 0
   showRadius: 1
   showRadiusTileGrid: 0
   useTileEfficiency: 1
-  cellEfficiencyMode: 0
-  placementWorkAreaLimit: 0
+  cellEfficiencyMode: 1
+  placementWorkAreaLimit: 2
   useWorkAreaEfficiency: 1
   canEditWorkArea: 0
   canResizeWorkArea: 0
