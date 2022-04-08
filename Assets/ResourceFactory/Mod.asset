@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: ae4f7eacb9a8a6340acdc3d91dcae136, type: 3}
   modname: EllaCharmed's Resource Factory
-  desc: Adds a resource cloning factory, with recipes. Compatible with patch 1.21
-    only.
-  version: 1.21
+  desc: Adds a resource cloning factory, with recipes.
+  version: 1.22
   tags:
   - Buildings
   startID: 1211210313
