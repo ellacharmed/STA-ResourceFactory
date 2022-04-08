@@ -26,13 +26,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 904881d176e018c4ca8834076df8f8a6, type: 2}
   - {fileID: 11400000, guid: d21211e22f2078f4a8479827fc4bf1f5, type: 2}
   - {fileID: 11400000, guid: 2520e983392b41c49a8d7a28bcee75f2, type: 2}
+  - {fileID: 11400000, guid: 39df25ab567e16d4da7cda67ff7218b1, type: 2}
+  - {fileID: 11400000, guid: e13851ae2ec683a45802b5f3fc64d81c, type: 2}
+  - {fileID: 11400000, guid: d32165539523f2341929ed7cdd54730e, type: 2}
+  - {fileID: 11400000, guid: 23141150fc286cb4ab42040bd9c79774, type: 2}
+  - {fileID: 11400000, guid: 344a639c71bd5074f9ab901d147e42c7, type: 2}
   capacity: 5000
   canHarvestDeposits: 1
-  isVisual: 1
+  isActive: 1
+  splitFoodResource: 0
+  isDemandStorage: 0
+  initialResourceRequestAmount: 15
+  showStoredResourceVisuals: 1
   visualStorageSize: 5
   visualStorageOffset: {x: 0.2, y: 0.05, z: 0.2}
-  isActive: 1
   showInBuildingUI: 1
-  isDemandStorage: 0
-  demandStorageThreshold: 1
-  splitFoodResource: 0

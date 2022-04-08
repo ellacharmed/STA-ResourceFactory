@@ -43,49 +43,77 @@ MonoBehaviour:
   - key: aParts
     input:
     - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
-      value: 2
+      value: 1
     - type: {fileID: 11400000, guid: e13851ae2ec683a45802b5f3fc64d81c, type: 2}
-      value: 2
+      value: 5
     output:
     - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
-      value: 5
+      value: 8
     productionDisplayStats: []
   - key: Tier1_Tools
-    input: []
+    input:
+    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+      value: 4
     output:
     - type: {fileID: 11400000, guid: 2d568a404bcac4b43ac10fa71f14497e, type: 2}
-      value: 2
+      value: 3
     productionDisplayStats: []
   - key: Tier2_Tools
     input:
     - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+      value: 6
+    - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
       value: 2
     output:
     - type: {fileID: 11400000, guid: b0cd63904c3684e4bbb23a2caf2c0cb8, type: 2}
-      value: 6
+      value: 3
     productionDisplayStats: []
   - key: Tier3_Tools
-    input: []
+    input:
+    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+      value: 8
+    - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
+      value: 4
+    - type: {fileID: 11400000, guid: 2e8e235d47fbe3341b76055658951793, type: 2}
+      value: 2
     output:
     - type: {fileID: 11400000, guid: c139fffa3f1101a43a491e5f1f26a833, type: 2}
-      value: 5
+      value: 3
     productionDisplayStats: []
   - key: Tier1_Weapons
-    input: []
+    input:
+    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+      value: 13
+    - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
+      value: 6
     output:
     - type: {fileID: 11400000, guid: 2667347008532e0499bb4317fb4a770e, type: 2}
-      value: 5
+      value: 3
     productionDisplayStats: []
   - key: Tier2_Weapons
-    input: []
+    input:
+    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+      value: 15
+    - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
+      value: 6
+    - type: {fileID: 11400000, guid: 2e8e235d47fbe3341b76055658951793, type: 2}
+      value: 3
     output:
     - type: {fileID: 11400000, guid: 5acc0753e7c74d94fb3d74bcbcc22549, type: 2}
-      value: 8
+      value: 3
     productionDisplayStats: []
   - key: Tier3_Weapons
-    input: []
+    input:
+    - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+      value: 15
+    - type: {fileID: 11400000, guid: ce70ad085b6247f43bf2ddba66751c46, type: 2}
+      value: 6
+    - type: {fileID: 11400000, guid: 2e8e235d47fbe3341b76055658951793, type: 2}
+      value: 3
+    - type: {fileID: 11400000, guid: d825481e90142364693a2b92f981ecfb, type: 2}
+      value: 3
     output:
     - type: {fileID: 11400000, guid: 1967a1e7b162e8b4eaa50acdfb250800, type: 2}
-      value: 10
+      value: 3
     productionDisplayStats: []
   requireDeposits: 0

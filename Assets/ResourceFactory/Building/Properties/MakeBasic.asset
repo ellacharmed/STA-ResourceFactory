@@ -33,6 +33,8 @@ MonoBehaviour:
     output:
     - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
       value: 12
+    - type: {fileID: 11400000, guid: 39df25ab567e16d4da7cda67ff7218b1, type: 2}
+      value: 6
     productionDisplayStats: []
   - key: aConcrete
     input: []
@@ -45,17 +47,7 @@ MonoBehaviour:
     output:
     - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
       value: 30
-    productionDisplayStats: []
-  - key: aScrap
-    input: []
-    output:
     - type: {fileID: 11400000, guid: e13851ae2ec683a45802b5f3fc64d81c, type: 2}
-      value: 5
-    productionDisplayStats: []
-  - key: aFiber
-    input: []
-    output:
-    - type: {fileID: 11400000, guid: 39df25ab567e16d4da7cda67ff7218b1, type: 2}
-      value: 5
+      value: 15
     productionDisplayStats: []
   requireDeposits: 0

@@ -21,25 +21,39 @@ MonoBehaviour:
   disasterMultiplier: 1
   recipes:
   - key: aMedicine
-    input: []
+    input:
+    - type: {fileID: 11400000, guid: 888ef8df0281fe44a9cd89bb0c8da549, type: 2}
+      value: 7
+    - type: {fileID: 11400000, guid: 344a639c71bd5074f9ab901d147e42c7, type: 2}
+      value: 5
     output:
     - type: {fileID: 11400000, guid: 3f7cca8fa27e3aa45917223fe8c3c9a6, type: 2}
-      value: 25
+      value: 5
     productionDisplayStats: []
   - key: aAntibiotics
-    input: []
+    input:
+    - type: {fileID: 11400000, guid: d21211e22f2078f4a8479827fc4bf1f5, type: 2}
+      value: 6
+    - type: {fileID: 11400000, guid: 344a639c71bd5074f9ab901d147e42c7, type: 2}
+      value: 5
     output:
     - type: {fileID: 11400000, guid: 1be3ca98014cde6449a533e1701f4009, type: 2}
-      value: 25
+      value: 5
     productionDisplayStats: []
   - key: aIodine
-    input: []
+    input:
+    - type: {fileID: 11400000, guid: f9dd76d1691ba5541bfa960bd83ad3e9, type: 2}
+      value: 7
+    - type: {fileID: 11400000, guid: 344a639c71bd5074f9ab901d147e42c7, type: 2}
+      value: 5
     output:
     - type: {fileID: 11400000, guid: 617692f1335d23644b2d7389f543ccf7, type: 2}
-      value: 25
+      value: 5
     productionDisplayStats: []
   - key: aHerbals
-    input: []
+    input:
+    - type: {fileID: 11400000, guid: d32165539523f2341929ed7cdd54730e, type: 2}
+      value: 10
     output:
     - type: {fileID: 11400000, guid: 344a639c71bd5074f9ab901d147e42c7, type: 2}
       value: 25

@@ -12,18 +12,32 @@ MonoBehaviour:
   m_Script: {fileID: 878106364, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
   m_Name: MakeFood
   m_EditorClassIdentifier: 
-  professionType: 16
+  professionType: 8
   input:
   - type: {fileID: 11400000, guid: 80f54a687b5a38a41b18f19de59ee24f, type: 2}
     value: 1
-  output: []
-  productionTime: 180
+  - type: {fileID: 11400000, guid: fb6cafae6711db743aacfe5ac86125a4, type: 2}
+    value: 1
+  - type: {fileID: 11400000, guid: d4eade2fc36c152409aa43eaf5e26d82, type: 2}
+    value: 1
+  - type: {fileID: 11400000, guid: 32bfb2965bf2a19468ee391b88cb64d3, type: 2}
+    value: 1
+  output:
+  - type: {fileID: 11400000, guid: 587f322ffea3267488d01f6726136e83, type: 2}
+    value: 1
+  - type: {fileID: 11400000, guid: bbfc403df18cff943b24909ef539d8af, type: 2}
+    value: 1
+  - type: {fileID: 11400000, guid: 1b7f50697e79f974da2e20e7c34c358a, type: 2}
+    value: 1
+  - type: {fileID: 11400000, guid: 831bcbcf046a09945ab12e5e36113238, type: 2}
+    value: 1
+  productionTime: 120
   disasterMultiplier: 0.1
   recipes:
   - key: Grp_Insects
     input:
     - type: {fileID: 11400000, guid: 32bfb2965bf2a19468ee391b88cb64d3, type: 2}
-      value: 0
+      value: 1
     output:
     - type: {fileID: 11400000, guid: de0a8ffb28449064db9809d690b59d90, type: 2}
       value: 2
@@ -34,7 +48,7 @@ MonoBehaviour:
     - type: {fileID: 11400000, guid: 831bcbcf046a09945ab12e5e36113238, type: 2}
       value: 3
     - type: {fileID: 11400000, guid: 587f322ffea3267488d01f6726136e83, type: 2}
-      value: 5
+      value: 8
     productionDisplayStats:
     - statType: 16
       statValue: 2
@@ -52,7 +66,7 @@ MonoBehaviour:
     - type: {fileID: 11400000, guid: bbfc403df18cff943b24909ef539d8af, type: 2}
       value: 3
     - type: {fileID: 11400000, guid: 587f322ffea3267488d01f6726136e83, type: 2}
-      value: 5
+      value: 8
     productionDisplayStats:
     - statType: 16
       statValue: 1
@@ -70,7 +84,7 @@ MonoBehaviour:
     - type: {fileID: 11400000, guid: 1b7f50697e79f974da2e20e7c34c358a, type: 2}
       value: 3
     - type: {fileID: 11400000, guid: 587f322ffea3267488d01f6726136e83, type: 2}
-      value: 5
+      value: 8
     productionDisplayStats:
     - statType: 16
       statValue: 3
@@ -85,6 +99,24 @@ MonoBehaviour:
       value: 2
     - type: {fileID: 11400000, guid: 6c511725515cc984dad800a13518ca3d, type: 2}
       value: 2
+    productionDisplayStats:
+    - statType: 16
+      statValue: 4
+  - key: Grp_Inputs
+    input: []
+    output:
+    - type: {fileID: 11400000, guid: d21211e22f2078f4a8479827fc4bf1f5, type: 2}
+      value: 8
+    - type: {fileID: 11400000, guid: 888ef8df0281fe44a9cd89bb0c8da549, type: 2}
+      value: 8
+    - type: {fileID: 11400000, guid: d32165539523f2341929ed7cdd54730e, type: 2}
+      value: 8
+    - type: {fileID: 11400000, guid: 95a9d925afdfbeb4bb505fccf11165cc, type: 2}
+      value: 8
+    - type: {fileID: 11400000, guid: 7c6634870ae6e064688be274207eb4c5, type: 2}
+      value: 8
+    - type: {fileID: 11400000, guid: b79c60fb4bdbe3648846e1616c42f30e, type: 2}
+      value: 8
     productionDisplayStats:
     - statType: 16
       statValue: 4

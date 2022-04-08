@@ -21,14 +21,6 @@ id,English,French,German,Spanish,Portuguese,Russian,Polish,Chinese
 #RECIPE_aOil_DESC,"Clone Oil.",,,,,,,
 #RECIPE_aRareMetal_DESC,"Clone Rare Metals.",,,,,,,
 
-#RECIPE_Grp_Insects,"Insects-based food",,,,,,,
-#RECIPE_Grp_Vegetables,"Vegetable-based food",,,,,,,
-#RECIPE_Grp_Meat,"Meat-based food",,,,,,,
-#RECIPE_Grp_Processed,"Processed food",,,,,,,
-#RECIPE_Grp_Insects_DESC,"Insects food group. Clone Cockroaches, Crickets, Mealworm and Insect Meals.",,,,,,,
-#RECIPE_Grp_Vegetables_DESC,"Vegetable food group. Clone Corn, Potato, Peanut and VegeMeal.",,,,,,,
-#RECIPE_Grp_Meat_DESC,"Meat food group. Clone Fish, Venison, PrimeMeat and MeatMeal.",,,,,,,
-#RECIPE_Grp_Processed_DESC,"Processed food group. Clone Bread, BeetleBread, CinnamonBun and MixedMeal.",,,,,,,
 
 #RECIPE_aElectronics_DESC,"Clone Electronics",,,,,,,
 #RECIPE_aFunbox_DESC,"Clone Funbox",,,,,,,
@@ -45,21 +37,24 @@ id,English,French,German,Spanish,Portuguese,Russian,Polish,Chinese
 
 #MEGA_STOCKPILE,"Mega Stockpile",,,,,,,
 #DESC_MEGA_STOCKPILE,"Has capacity of 5000 versus the default value of 1500",,,,,,,
-#MAGIC_CUBE,"Magic Cube of Power",,,,,,,
-#DESC_MAGIC_CUBE,"Global Energy producer",,,,,,,
+#MAGIC_CUBE_PROD,"Magic Cube of Power",,,,,,,
+#DESC_MAGIC_CUBE_PROD,"Global Energy producer.",,,,,,,
+#MAGIC_CUBE_DIST,"Magic Cube Relay",,,,,,,
+#DESC_MAGIC_CUBE_DIST,"Global Energy transformer/relay.",,,,,,,
 #MAGIC_BARREL,"Magic Barrel",,,,,,,
-#DESC_MAGIC_BARREL,"Global Water producer",,,,,,,
+#DESC_MAGIC_BARREL,"Global Water Distributor.",,,,,,,
+#POWER_WELL,"Power Well",,,,,,,
+#DESC_POWER_WELL,"Global Water producer and Storage. ",,,,,,,
 
-
-#CRAFTS_FACTORY,"CRAFTS FACTORY",,,,,,,
+#CRAFTS_FACTORY,"Crafts Factory",,,,,,,
 #DESC_CRAFTS_FACTORY,"Worker: Craftsman. Creates Firewood and Clothings",,,,,,,
 #RECIPE_aFirewood,"Firewood",,,,,,,
 #RECIPE_Tier1_Clothes,"Basic Clothing",,,,,,,
 #RECIPE_Tier2_Clothes,"Sturdy Clothing",,,,,,,
 #RECIPE_Tier3_Clothes,"Protective Clothing",,,,,,,
 
-#MECH_FACTORY,"MECH_FACTORY",,,,,,,
-#DESC_MECH_FACTORY,"Worker: Mechanic. Creates",,,,,,,
+#MECH_FACTORY,"Mechanical Factory",,,,,,,
+#DESC_MECH_FACTORY,"Worker: Mechanic. Creates Parts, Tools, Weapons.",,,,,,,
 #RECIPE_aParts,"Parts",,,,,,,
 #RECIPE_Tier1_Tools,"Basic Tools",,,,,,,
 #RECIPE_Tier2_Tools,"Durable Tools",,,,,,,
@@ -68,13 +63,18 @@ id,English,French,German,Spanish,Portuguese,Russian,Polish,Chinese
 #RECIPE_Tier2_Weapons,"Shotgun",,,,,,,
 #RECIPE_Tier3_Weapons,"Automatic Rifle",,,,,,,
 
-
-
-
-
 #FOOD_FACTORY,Food Factory,,,,,,,,
 #DESC_FOOD_FACTORY,"The FOOD Factory produces food ingredients and meals, of course",,,,,,,
-
+#RECIPE_Grp_Insects,"Insects-based food",,,,,,,
+#RECIPE_Grp_Vegetables,"Vegetable-based food",,,,,,,
+#RECIPE_Grp_Meat,"Meat-based food",,,,,,,
+#RECIPE_Grp_Processed,"Processed food",,,,,,,
+#RECIPE_Grp_Inputs,"Intermediate ingredients group.",,,,,,,
+#RECIPE_Grp_Insects_DESC,"Insects food group. Clone Cockroaches, Crickets, Mealworms, Insect Meals and Mixed Meals.",,,,,,,
+#RECIPE_Grp_Vegetables_DESC,"Vegetable food group. Clone Corn, Potato, Peanut, VegeMeal and Mixed Meals.",,,,,,,
+#RECIPE_Grp_Meat_DESC,"Meat food group. Clone Fish, Venison, PrimeMeat, MeatMeal and Mixed Meals.",,,,,,,
+#RECIPE_Grp_Processed_DESC,"Processed food group. Clone Bread, BeetleBread, CinnamonBun.",,,,,,,
+#RECIPE_Grp_Inputs_DESC,"Intermediate ingredients to be used in other recipes. Clone Oil, Soybean, MedicinalHerb, Flour, Egg, Milk.",,,,,,,
 
 #PHARMA_FACTORY,Pharma Factory,,,,,,,,
 #DESC_PHARMA_FACTORY,"The Pharmaceuticals lab can assist in keeping your colonists healthy by producting medicine, antibiotic pills, iodine tablets and the main ingredient of medicinal herbs for the manufacture of all of the medicine",,,,,,,
@@ -85,11 +85,11 @@ id,English,French,German,Spanish,Portuguese,Russian,Polish,Chinese
 #RECIPE_aIodine,"Iodine",,,,,,,
 #RECIPE_aIodine_DESC,"Clone Iodine.",,,,,,,
 #RECIPE_aHerbals,"Herbals",,,,,,,
-#RECIPE_aHerbals_DESC,"Clone Herbals.",,,,,,,
+#RECIPE_aHerbals_DESC,"Clone Herbals. A required ingredient for synthesizing all other pharma items. Grow Medicinal Herbs in a Greenhouse first or use FoodFactory.",,,,,,,
 
-#PRODUCT_FACTORY,Manufacturing plant,,,,,,,,
+#PRODUCT_FACTORY,Manufacturing Plant,,,,,,,,
 #DESC_PRODUCT_FACTORY,"The manufacturing plant produces the 'high-end' items. Keep these well stock as they have high trade value",,,,,,,
-#RECIPE_aRareMetal,"Rare Metals",,,,,,,
+#RECIPE_aRareMetal,"Rare Metals. A required ingredient for the Component and Electronics recipes.",,,,,,,
 #RECIPE_aComponent,"Component",,,,,,,
 #RECIPE_aElectronics,"Electronics",,,,,,,
 #RECIPE_aFuel,"Fuel",,,,,,,

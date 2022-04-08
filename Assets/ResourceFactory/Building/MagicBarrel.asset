@@ -27,8 +27,8 @@ MonoBehaviour:
   workSlotCount: 0
   activateSuitableOverlay: 0
   activateAreaOfEffectOverlay: 1
-  overrideSuitableOverlay: 102
-  minimumGamePhase: 20
+  overrideSuitableOverlay: 4
+  minimumGamePhase: 10
   buildDuration: 10
   resources:
   - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
@@ -60,7 +60,7 @@ MonoBehaviour:
     loopWorkingPath: 0
   skipEntryPath: 1
   properties:
-  - {fileID: 11400000, guid: 01edd48411a44954d94df8e2fb78d583, type: 2}
+  - {fileID: 11400000, guid: ab5c214fd4e7904418ffdc36e2e3c2bf, type: 2}
   indestructible: 1
   damageMultiplier: 0
   combatDamageMultiplier: 0.25
@@ -75,10 +75,12 @@ MonoBehaviour:
   pollutionCreationRate: 0
   hideFunctionButtons: 0
   hideHealthElement: 1
+  hideCapacityElement: 0
   hideDescriptionElement: 1
   hideEfficiencyElement: 0
   hideHealthBar: 1
   hideStatusBlock: 0
+  hideResourceRequestElement: 0
   placement:
     tiles:
       x: 2
@@ -88,14 +90,14 @@ MonoBehaviour:
     leftReserved: 0
     rightReserved: 0
     placementTiles: 00000000000000000000000000000000
-  placementType: 3
+  placementType: 1
   noDrySoil: 0
   onlyDrySoil: 0
   showRadius: 1
   showRadiusTileGrid: 0
   useTileEfficiency: 1
-  cellEfficiencyMode: 1
-  placementWorkAreaLimit: 2
+  cellEfficiencyMode: 0
+  placementWorkAreaLimit: 0
   useWorkAreaEfficiency: 1
   canEditWorkArea: 0
   canResizeWorkArea: 0
@@ -116,6 +118,7 @@ MonoBehaviour:
   restrictedPlacementPosition: {x: 0, y: 0}
   decalOverride: {fileID: 0}
   decalEnabled: 1
+  disableForwardDecals: 0
   randomRotation: 0
   buildingDestroyedSoundEvent: event:/SFX/Building/Destroyed/Small Building Destroyed
   buildingRunningSoundEvent: 

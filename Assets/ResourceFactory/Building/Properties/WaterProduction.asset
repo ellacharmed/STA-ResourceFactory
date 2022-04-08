@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalResourceType: 1
   productionType: 3
-  restrictPlacement: 0
+  restrictPlacement: 1
   disableDuringDisaster: []
   lowProduction: 300
   normalProduction: 700
