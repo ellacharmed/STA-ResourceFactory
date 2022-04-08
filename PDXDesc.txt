@@ -1,0 +1,175 @@
+Overview
+
+Adds a resource cloning factory, with recipes. Build with patch 1.21.2.
+
+
+Tired of scavenging? Running out of resources? Or no workforce to man those production buildings?
+
+Use the Resource Factory and its brethren to create a whole bunch of resources. Pause production if you feel you've gotten greedy.
+
+
+
+
+
+
+
+
+Design considerations
+
+Due to the frequent updates, mesh will remain using the Fish Factory model. Well, at least until I learn 3D modeling, texturing, etc with Blender.
+
+
+Since the Resource Factory (and its brethren) is using the Fish Factory's mesh, the buildings have been differentiated by different logo on the building's roof and awning color.
+
+
+Made indestructible due to a bug that I cannot identify (resources were taken to building but seen as resources to be stored instead of repair? ate the resources without doing repair) (from patch 1.12.3 onwards). Have not had time to test again in 1.14.0. Will update if I ever figure it out.
+
+
+The FishRain Disaster+Event from the Fish Factory was removed as it caused a stuck-running-bug I have not been able to troubleshoot and fix
+
+
+
+
+
+
+
+
+
+Requirements
+
+Campsite placed.
+
+
+
+
+
+
+
+Features
+
+    factory now come with 4 flavors. All still using the same mesh model however. The idea was to have each have a secondary feature like producing heat, water and power but that didn't work out, so back to just the basics
+
+    Basic : for the base resources
+    Food : for food (located in Food menu, where else?)
+    Pharma : for pharmaceuticals
+    Manufacturing : for the products
+
+    apart from Food, each item is a recipe by itself and Building is located in Resources menu
+    all factories except for Manufacturing and Food Factory (Insect & Processed recipes) are "automated" (i.e. no worker slots) and need no input resources
+    no worker slot as the main feature of this mod is to help the workforce crunch when colonists die like fruit flies and due to the colonists cap, except for the Manufacturing one that requires Workers to transport the input resources and not Carriers.
+    Demolished returns: Metal 5 units
+    In order not to over produce and fill up the storage with excess resources, remember to make use of the Production Limit and the Pause button. Especially, on those buildings that are "automated".
+
+
+
+
+
+Having issues with the mod?
+
+    Verify that you have the mod enabled in the Select Mod screen in the game, not in Paradox Launcher
+    Does the game crash when you load mods? Try disabling all other mods and running with just this mod enabled.
+    If you are sure, the cause is this mod, please provide ALL the answers in the Troubleshooting section below. Incomplete answers would put you last in the queue while I answer others first who have taken the time to help me help you.
+
+
+
+
+
+Unity engine limitations
+
+Cannot use a newly downloaded mod in a pre-existing SAVE game. Must always start a NEW game.
+
+
+Remember that mods is still highly experimental if this is your first exposure to modding. Do not use mods if you do not like to restart a new game each time a mod is updated, or each time a game is updated that would render that mod obsolete for the newly release patch version.
+
+
+Once a save game is "modded", that save cannot be reverted to a vanilla game forevermore. Once a mod is updated, that save with the older mod may no longer work; as the mod's signature is considered different by the game, thus why you'd need to start a NEW game.
+
+
+
+
+
+
+Troubleshooting
+
+    Have you disabled all other mods except this one? [YES/No]
+    After you enabled just this mod, have you started a NEW game? [YES/No]
+    Is your game version same as the version stated in the Overview box? Please state your game version [1.##.####] in your report.
+    Is the issue you encountered still present? Can it be reproduced in the NEW game? Please outline all the steps for me to reproduce at my end, or send me the Save file.
+    If the issue is incompatibility with another mod (that is not mine), please provide the URL to the mod page so I may test.
+    Please post URL to the pastebin of the logfile
+    (optional) Please post URL to the zipfile that contains the SAVE game and the logfile
+
+path to logfile: 
+
+%USERPROFILE%\AppData\LocalLow\Iceflake Studios\Surviving the Aftermath\
+
+
+path to save game: 
+
+Documents\Paradox Interactive\Surviving the Aftermath\SaveGames
+
+
+And most important of all.
+
+Do not report a modded game as "broken" or not working to the developers.
+
+Only report a bug/issue to Iceflake when playing vanilla games, unless it is stated by the mod-developer that their mod is safe to use.
+
+
+
+
+
+
+
+Seeking Crowdsourcing for Translations to other languages
+
+Give me sometime to prepare a shared file on how to carry this out in the least painful way possible.
+
+
+
+
+
+
+
+
+
+If you like this content, please do consider to show support
+
+Favorite, Subscribe, Like, Comment on my mods and content on the various sites. Help spread the word.
+
+And Donate, if you're able, so I can upgrade my equipment to create more content. It is very much appreciated. Thank you.
+
+
+    Steam Workshop content
+    ellacharmed.wordpress.com
+    YouTube
+    PayPal.me
+
+
+
+How to install using Paradox Launcher (manual method)
+
+https://youtu.be/cS3pg6dUBzM?t=332
+
+(video recorded while on Update 1.14.0)
+
+
+
+
+ResourceFactory recipe groups
+
+https://youtu.be/SMTmhD1iRSE
+
+(video recorded while on Update 8)
+
+
+
+
+
+
+
+
+
+More Information, known Issues, Future Roadmap and sourcecode
+
+Go to https://github.com/ellacharmed/STA-ResourceFactory
