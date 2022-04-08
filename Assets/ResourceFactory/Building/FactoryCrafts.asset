@@ -15,8 +15,8 @@ MonoBehaviour:
   id: 1211211228
   basicBuilding: {fileID: 0}
   unlockCondition: 0
+  assetBundleKey: 
   name: '#CRAFTS_FACTORY'
-  buildingTechDescription: '#DESC_CRAFTS_FACTORY'
   category: 4
   menuType: 0
   includedInStatistics: 1
@@ -24,23 +24,23 @@ MonoBehaviour:
   isCampsite: 0
   priority: 0
   enableProductionLimit: 1
+  workSlotCount: 2
   activateSuitableOverlay: 0
   activateAreaOfEffectOverlay: 0
   overrideSuitableOverlay: 0
   minimumGamePhase: 40
-  buildResource: 120
+  buildDuration: 120
   resources:
   - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
-    value: 4
+    value: 6
   - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
-    value: 2
+    value: 6
   repairResource:
     type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
     value: 5
   destructionResources:
   - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
     value: 5
-  workSlotCount: 2
   canBeRepaired: 1
   roadID: 
   level: 1
@@ -48,9 +48,9 @@ MonoBehaviour:
   bigIcon: {fileID: 21300000, guid: ae4f7eacb9a8a6340acdc3d91dcae136, type: 3}
   floaterYOffset: 0
   models:
-  - visual: {fileID: 1676370284329800940, guid: 4c4500c940a9ec44bbfd15ddccbc47d4,
+  - visual: {fileID: 1676370284329800940, guid: dcdcdb9cff781454e82a5c42ed055be8,
       type: 3}
-    brushVisual: {fileID: 1676370284329800940, guid: 651abd7ec31393d46a29f49dabc7d649,
+    brushVisual: {fileID: 1676370284329800940, guid: dcdcdb9cff781454e82a5c42ed055be8,
       type: 3}
     constructions:
     - {fileID: 1676370284329800940, guid: 651abd7ec31393d46a29f49dabc7d649, type: 3}
@@ -245,10 +245,12 @@ MonoBehaviour:
   pollutionCreationRate: 0
   hideFunctionButtons: 0
   hideHealthElement: 1
+  hideCapacityElement: 0
   hideDescriptionElement: 1
   hideEfficiencyElement: 1
   hideHealthBar: 0
   hideStatusBlock: 0
+  hideResourceRequestElement: 0
   placement:
     tiles:
       x: 5
@@ -267,12 +269,16 @@ MonoBehaviour:
   cellEfficiencyMode: 0
   placementWorkAreaLimit: 0
   useWorkAreaEfficiency: 0
-  canEditWorkarea: 0
+  canEditWorkArea: 0
+  canResizeWorkArea: 0
+  workAreaRadius: 7
+  workAreaOffset:
+    x: 0
+    y: 0
   workAreaType: 0
   highlightDeposits: 0
   highlightWaterConsumers: 0
   highlightEnergyNodes: 0
-  canResizeWorkarea: 0
   canEditStorage: 0
   targetEfficiency: 0.9
   isUnique: 0
@@ -282,10 +288,7 @@ MonoBehaviour:
   restrictedPlacementPosition: {x: 0, y: 0}
   decalOverride: {fileID: 0}
   decalEnabled: 0
-  workAreaRadius: 7
-  workAreaOffset:
-    x: 0
-    y: 0
+  disableForwardDecals: 0
   randomRotation: 0
   buildingDestroyedSoundEvent: 
   buildingRunningSoundEvent: 
@@ -296,3 +299,4 @@ MonoBehaviour:
   upgradeType: 0
   isUpgrade: 0
   automaticUpgrade: 0
+  buildingTechDescription: '#DESC_CRAFTS_FACTORY'
