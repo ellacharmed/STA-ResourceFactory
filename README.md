@@ -17,7 +17,7 @@ Well, due to some game-design constrains and bugs in the game, resources were an
 
 And then, my '*pet-peeves*' were shown not to be an isolated incident. And indeed, other players are complaining of the same issues, and so I uploaded it and release it to the public and here we are.
 
-With the introduction of the Resource Extractors in one of the updates, I had thought that this mod is made redundant and have not updated it for months as I have been playing other games. 
+With the introduction of the Resource Extractors in one of the updates, I had thought that this mod is made redundant and have not updated it for months as I have been playing other games.
 
 Despite all the improvements and enhancements of the past year, further balancing is still required. The production versus consumption values, that have been continously tweaked, the addition of Custom Game mode (in '*patch 1.22.0*') still do not allow for the growth of the colony the way that suits our individualistic playstyle.
 
@@ -45,9 +45,9 @@ Despite all the improvements and enhancements of the past year, further balancin
 
 - ![Production Limit](Assets/Images/production-limit.png "Production Limit")<br/>Added Production Limit. Use together with the Pause button so you don't overwhelmed your colony with transporting-resources-tasks when you don't have enough Carriers for other essential transporting tasks (like transporting Firewood).
 
-- ~~Currently made "**_Automated_**" like the upgraded Resource Extractors for Basic and Pharma~~.
+- ~~Currently made "***Automated***" like the upgraded Resource Extractors for Basic and Pharma~~.
 
-- Currently "**_Indestructible_**", ie they won't take any Damage, as the Repair needs something else I have not figured out. Buildings will however get Polluted and need to be decontaminated.
+- Currently "***Indestructible***", ie they won't take any Damage, as the Repair needs something else I have not figured out. Buildings will however get Polluted and need to be decontaminated.
 
 - Are not disabled by Cold, ie works during Winter Storm.
 
@@ -65,13 +65,15 @@ Despite all the improvements and enhancements of the past year, further balancin
 
 - Mechanical, Pharma and Manufacturing factories now have Low, Medium, High Energy requirements, respectively. Because I wanted to learn about modding these features.
 
-- Since the Resource Factory mod is using the Fish Factory's mesh, the buildings have been differrentiated by different awning colours and placing resource logo icons on the building's signboard (from v0.3.6) and roof (from v1.22). 
+- Since the Resource Factory mod is using the Fish Factory's mesh, the buildings have been differrentiated by different awning colours and placing resource logo icons on the building's signboard (from v0.3.6) and roof (from v1.22).
 
 I've also been updating the Fish Factory for every patch cycle. You can get it from the [StA-FishFactory release page](https://github.com/ellacharmed/StA-FishFactory/releases). ![fish vs resource](Assets/Images/fish-vs-resource.jpg "fish vs resource")
 
 ## Requirements
 
-- Construction Cost: 
+- Basic + Food: Shoot the Flare after placing Campsite
+- All remaining factories: build Gate
+- Construction Cost:
   - Non-powered buildings: 6 Plank, 6 Plastic
   - Powered buildings: 6 Plank, 6 Plastic, 4 Metal
 - ~~Repair cost: 5 Plastic~~ Made Indestructible. Repair resources taken to building but turn red again with no repair done. Same issue with Fish Factory, so need further study.
@@ -81,7 +83,7 @@ I've also been updating the Fish Factory for every patch cycle. You can get it f
 
 - Output: recipe groups revamped for update 1.12.4 (Jan 2021)
 
-[![Watch the video](Assets/Images/vid_poster_image.jpg)](https://youtu.be/SMTmhD1iRSE "Click to play recipe-groups") _Click image to play video via Youtube; video recorded while on Update 8_
+[![Watch the video](Assets/Images/vid_poster_image.jpg)](https://youtu.be/SMTmhD1iRSE "Click to play recipe-groups") *Click image to play video via Youtube; video recorded while on Update 8*
 
 ## Unity-engine / game-design limitations
 
@@ -91,7 +93,7 @@ I've also been updating the Fish Factory for every patch cycle. You can get it f
 
 1. Remember that mods is still highly experimental if this is your first exposure to modding. Do not use mods if you do not like to restart a new game each time a mod is updated, or each time a game is updated that would render that mod obsolete for the newly release patch version.
 
-1. Once a save game is "modded", that save cannot be reverted to a vanilla game forevermore. 
+1. Once a save game is "modded", that save cannot be reverted to a vanilla game forevermore.
 
 1. Once a mod is updated, that save with the older mod may no longer work; as the mod's signature is considered different by the game, thus why you'd need to start a NEW game.
 
@@ -113,16 +115,15 @@ I've also been updating the Fish Factory for every patch cycle. You can get it f
 ### Having issues with the mod?
 
 - Verify that you have the mod enabled in the Select Mod screen in the game, not in Paradox Launcher
-- Does the game crash when you load mods? Try disabling all other mods and running with just **this mod** _enabled_.
+- Does the game crash when you load mods? Try disabling all other mods and running with just **this mod** *enabled*.
 - Never do a SECOND load. Quit all the way to the Desktop.
-
 
 ### Troubleshooting
 
-If you are sure that the cause is this mod, please provide **_ALL_** 6 (or 7) answers below. Incomplete answers would put you last in the queue while I answer others first, who have taken the time to help me help you, and provide all 6 (or 7) pieces of information.
+If you are sure that the cause is this mod, please provide ***ALL*** 6 (or 7) answers below. Incomplete answers would put you last in the queue while I answer others first, who have taken the time to help me help you, and provide all 6 (or 7) pieces of information.
 
 1. Have you disabled all other mods except this one? `[YES/No]`
-1. After you enabled just _this mod_, have you started a NEW game? `[YES/No]`
+1. After you enabled just *this mod*, have you started a NEW game? `[YES/No]`
 1. Is your game version same as the version stated in the Overview box? Please state your game version `[1.##.####]` in your report.
 1. Is the issue you encountered still present? Can it be reproduced in the NEW game? `Please outline all the steps for me to reproduce at my end`, or send me the Save file.
 1. If the issue is incompatibility with another mod (that is not mine), please `provide the URL` to the Workshop page (or elsewhere) so I may test.
@@ -131,57 +132,19 @@ If you are sure that the cause is this mod, please provide **_ALL_** 6 (or 7) an
 
 *note: \[appdata\] is a hidden folder.* Need to toggle off the hide/show items in Options or on the View bar in Explorer
 
-
 ## Related Links
 
-### Debug Mode mod
-
-The game's built-in Cheat Menu enabled for regular gameplay. Normally only available during QA testing.
-<img src="https://steamuserimages-a.akamaihd.net/ugc/1769329067834491795/221703D7B1D70D8DF4734DEA67CA9BE3F2E5C3EE/" alt="debug-mode-mod" title="Debug Mode mod" width="20%" style="float:right; padding-right:20px" />
-
-Download from
-
-- [github](https://github.com/ellacharmed/StA-FishFactory)
-- [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2472277310)<br/> 
-
-<br/><br/>
+|Item |Description  | Download from|Image|
+--- | --- | ---|---|
+|Debug Mode mod|The game's built-in Cheat Menu enabled for regular gameplay. Normally only available during QA testing|[ellacharmed blog post](https://ellacharmed.wordpress.com/2021/09/04/surviving-the-aftermath-debug-mode/), [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2472277310)| ![debug-mode-mod](Assets/Images/DebugModeIcon_205px.png "Debug Mode mod")|
+| Fish Factory mod | Ella's version of the Fish Factory<br/>- Added Recipes to input Meat type: Fish or Venison.<br/>- Fixed some text in Localization and Events.<br/>- Changed texture colours.<br/>- Changed icon.| [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2472277310)|![fish-factory-mod](Assets/Images/FishFactoryIcon_194x205.png "Fish Factory mod")|
+|Windfall mod|Result of playing around with Events modding.|- [github](https://github.com/ellacharmed/STA-Windfall)<br/>- [paradoxplaza](https://mods.paradoxplaza.com/mods/3571/Any)<br/>- [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2472277310)<br/>|![windfall-mod](Assets/Images/windfall-icon_227x205.png "Windfall mod")|
 
 ---
 
-### Fish Factory mod
-<img src="https://steamuserimages-a.akamaihd.net/ugc/1769329128553792572/0D6D81F8EE4B776F7CEEEE9EA86640A4FE502DFC/" alt="Fish-Factory-mod" title="Fish Factory mod" width="40%" style="float:right; padding-right:20px" />
-Ella's version of the Fish Factory.
-
-- Added Recipes to input Meat type: Fish or Venison.
-- Fixed some text in Localization and Events.
-- Changed texture colours.
-- Changed icon.
-
-
-Download from
-
-- [github](https://github.com/ellacharmed/StA-FishFactory)
-- [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2472277310)
-<br/><br/>
-
----
-
-### Windfall mod
-
-<img src="https://steamuserimages-a.akamaihd.net/ugc/1769329097644045757/C08DB431BC041D7387946FC8C22E9AAE1A3096D0/" alt="Windfall-event-mod" title="windfall event mod" width="40%" style="float:right; padding-right:20px" />
-
-Result of playing around with Events modding.
-
-Download from
-
-- [github](https://github.com/ellacharmed/STA-Windfall)
-- [paradoxplaza](https://mods.paradoxplaza.com/mods/3571/Any)
-- [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2472277310)
-<br/><br/><br/>
-
----
 ### Install Guide
-<img src="https://ellacharmed.files.wordpress.com/2019/11/sta-install-mod-pdx-2021-05.jpg" alt="How-to-install-mods" title="How to install Mods in Surviving the Aftermath" width="40%" style="float:right; padding-right:20px" />
+
+![How to install Mods in Surviving the Aftermath](https://ellacharmed.files.wordpress.com/2019/11/sta-install-mod-pdx-2021-05.jpg)
 
 How to install and use Mods in Surviving the Aftermath guides via [ellacharmed's Blog](https://ellacharmed.wordpress.com) or Youtube
 
